@@ -1,0 +1,514 @@
+ldii in Kabupaten Aceh Selatan, Indonesia
+ldii in Kabupaten Aceh Tenggara, Indonesia
+ldii in Kabupaten Aceh Timur, Indonesia
+ldii in Kabupaten Aceh Tengah, Indonesia
+ldii in Kabupaten Aceh Barat, Indonesia
+ldii in Kabupaten Aceh Besar, Indonesia
+ldii in Kabupaten Pidie, Indonesia
+ldii in Kabupaten Aceh Utara, Indonesia
+ldii in Kabupaten Simeulue, Indonesia
+ldii in Kabupaten Aceh Singkil, Indonesia
+ldii in Kabupaten Bireuen, Indonesia
+ldii in Kabupaten Aceh Barat Daya, Indonesia
+ldii in Kabupaten Gayo Lues, Indonesia
+ldii in Kabupaten Aceh Jaya, Indonesia
+ldii in Kabupaten Nagan Raya, Indonesia
+ldii in Kabupaten Aceh Tamiang, Indonesia
+ldii in Kabupaten Bener Meriah, Indonesia
+ldii in Kabupaten Pidie Jaya, Indonesia
+ldii in Kota Banda Aceh, Indonesia
+ldii in Kota Sabang, Indonesia
+ldii in Kota Lhokseumawe, Indonesia
+ldii in Kota Langsa, Indonesia
+ldii in Kota Subulussalam, Indonesia
+ldii in Kabupaten Tapanuli Tengah, Indonesia
+ldii in Kabupaten Tapanuli Utara, Indonesia
+ldii in Kabupaten Tapanuli Selatan, Indonesia
+ldii in Kabupaten Nias, Indonesia
+ldii in Kabupaten Langkat, Indonesia
+ldii in Kabupaten Karo, Indonesia
+ldii in Kabupaten Deli Serdang, Indonesia
+ldii in Kabupaten Simalungun, Indonesia
+ldii in Kabupaten Asahan, Indonesia
+ldii in Kabupaten Labuhanbatu, Indonesia
+ldii in Kabupaten Dairi, Indonesia
+ldii in Kabupaten Toba, Indonesia
+ldii in Kabupaten Mandailing Natal, Indonesia
+ldii in Kabupaten Nias Selatan, Indonesia
+ldii in Kabupaten Pakpak Bharat, Indonesia
+ldii in Kabupaten Humbang Hasundutan, Indonesia
+ldii in Kabupaten Samosir, Indonesia
+ldii in Kabupaten Serdang Bedagai, Indonesia
+ldii in Kabupaten Batu Bara, Indonesia
+ldii in Kabupaten Padang Lawas Utara, Indonesia
+ldii in Kabupaten Padang Lawas, Indonesia
+ldii in Kabupaten Labuhanbatu Selatan, Indonesia
+ldii in Kabupaten Labuhanbatu Utara, Indonesia
+ldii in Kabupaten Nias Utara, Indonesia
+ldii in Kabupaten Nias Barat, Indonesia
+ldii in Kota Medan, Indonesia
+ldii in Kota Pematangsiantar, Indonesia
+ldii in Kota Sibolga, Indonesia
+ldii in Kota Tanjungbalai, Indonesia
+ldii in Kota Binjai, Indonesia
+ldii in Kota Tebing Tinggi, Indonesia
+ldii in Kota Padangsidimpuan, Indonesia
+ldii in Kota Gunungsitoli, Indonesia
+ldii in Kabupaten Pesisir Selatan, Indonesia
+ldii in Kabupaten Solok, Indonesia
+ldii in Kabupaten Sijunjung, Indonesia
+ldii in Kabupaten Tanah Datar, Indonesia
+ldii in Kabupaten Padang Pariaman, Indonesia
+ldii in Kabupaten Agam, Indonesia
+ldii in Kabupaten Lima Puluh Kota, Indonesia
+ldii in Kabupaten Pasaman, Indonesia
+ldii in Kabupaten Kepulauan Mentawai, Indonesia
+ldii in Kabupaten Dharmasraya, Indonesia
+ldii in Kabupaten Solok Selatan, Indonesia
+ldii in Kabupaten Pasaman Barat, Indonesia
+ldii in Kota Padang, Indonesia
+ldii in Kota Solok, Indonesia
+ldii in Kota Sawahlunto, Indonesia
+ldii in Kota Padang Panjang, Indonesia
+ldii in Kota Bukittinggi, Indonesia
+ldii in Kota Payakumbuh, Indonesia
+ldii in Kota Pariaman, Indonesia
+ldii in Kabupaten Kampar, Indonesia
+ldii in Kabupaten Indragiri Hulu, Indonesia
+ldii in Kabupaten Bengkalis, Indonesia
+ldii in Kabupaten Indragiri Hilir, Indonesia
+ldii in Kabupaten Pelalawan, Indonesia
+ldii in Kabupaten Rokan Hulu, Indonesia
+ldii in Kabupaten Rokan Hilir, Indonesia
+ldii in Kabupaten Siak, Indonesia
+ldii in Kabupaten Kuantan Singingi, Indonesia
+ldii in Kabupaten Kepulauan Meranti, Indonesia
+ldii in Kota Pekanbaru, Indonesia
+ldii in Kota Dumai, Indonesia
+ldii in Kabupaten Kerinci, Indonesia
+ldii in Kabupaten Merangin, Indonesia
+ldii in Kabupaten Sarolangun, Indonesia
+ldii in Kabupaten Batanghari, Indonesia
+ldii in Kabupaten Muaro Jambi, Indonesia
+ldii in Kabupaten Tanjung Jabung Barat, Indonesia
+ldii in Kabupaten Tanjung Jabung Timur, Indonesia
+ldii in Kabupaten Bungo, Indonesia
+ldii in Kabupaten Tebo, Indonesia
+ldii in Kota Jambi, Indonesia
+ldii in Kota Sungai Penuh, Indonesia
+ldii in Kabupaten Ogan Komering Ulu, Indonesia
+ldii in Kabupaten Ogan Komering Ilir, Indonesia
+ldii in Kabupaten Muara Enim, Indonesia
+ldii in Kabupaten Lahat, Indonesia
+ldii in Kabupaten Musi Rawas, Indonesia
+ldii in Kabupaten Musi Banyuasin, Indonesia
+ldii in Kabupaten Banyuasin, Indonesia
+ldii in Kabupaten Ogan Komering Ulu Timur, Indonesia
+ldii in Kabupaten Ogan Komering Ulu Selatan, Indonesia
+ldii in Kabupaten Ogan Ilir, Indonesia
+ldii in Kabupaten Empat Lawang, Indonesia
+ldii in Kabupaten Penukal Abab Lematang Ilir, Indonesia
+ldii in Kabupaten Musi Rawas Utara, Indonesia
+ldii in Kota Palembang, Indonesia
+ldii in Kota Pagar Alam, Indonesia
+ldii in Kota Lubuk Linggau, Indonesia
+ldii in Kota Prabumulih, Indonesia
+ldii in Kabupaten Bengkulu Selatan, Indonesia
+ldii in Kabupaten Rejang Lebong, Indonesia
+ldii in Kabupaten Bengkulu Utara, Indonesia
+ldii in Kabupaten Kaur, Indonesia
+ldii in Kabupaten Seluma, Indonesia
+ldii in Kabupaten Mukomuko, Indonesia
+ldii in Kabupaten Lebong, Indonesia
+ldii in Kabupaten Kepahiang, Indonesia
+ldii in Kabupaten Bengkulu Tengah, Indonesia
+ldii in Kota Bengkulu, Indonesia
+ldii in Kabupaten Lampung Selatan, Indonesia
+ldii in Kabupaten Lampung Tengah, Indonesia
+ldii in Kabupaten Lampung Utara, Indonesia
+ldii in Kabupaten Lampung Barat, Indonesia
+ldii in Kabupaten Tulang Bawang, Indonesia
+ldii in Kabupaten Tanggamus, Indonesia
+ldii in Kabupaten Lampung Timur, Indonesia
+ldii in Kabupaten Way Kanan, Indonesia
+ldii in Kabupaten Pesawaran, Indonesia
+ldii in Kabupaten Pringsewu, Indonesia
+ldii in Kabupaten Mesuji, Indonesia
+ldii in Kabupaten Tulang Bawang Barat, Indonesia
+ldii in Kabupaten Pesisir Barat, Indonesia
+ldii in Kota Bandar Lampung, Indonesia
+ldii in Kota Metro, Indonesia
+ldii in Kabupaten Bangka, Indonesia
+ldii in Kabupaten Belitung, Indonesia
+ldii in Kabupaten Bangka Selatan, Indonesia
+ldii in Kabupaten Bangka Tengah, Indonesia
+ldii in Kabupaten Bangka Barat, Indonesia
+ldii in Kabupaten Belitung Timur, Indonesia
+ldii in Kota Pangkal Pinang, Indonesia
+ldii in Kabupaten Bintan, Indonesia
+ldii in Kabupaten Karimun, Indonesia
+ldii in Kabupaten Natuna, Indonesia
+ldii in Kabupaten Lingga, Indonesia
+ldii in Kabupaten Kepulauan Anambas, Indonesia
+ldii in Kota Batam, Indonesia
+ldii in Kota Tanjung Pinang, Indonesia
+ldii in Kabupaten Administrasi Kepulauan Seribu, Indonesia
+ldii in Kota Administrasi Jakarta Pusat, Indonesia
+ldii in Kota Administrasi Jakarta Utara , Indonesia
+ldii in Kota Administrasi Jakarta Barat, Indonesia
+ldii in Kota Administrasi Jakarta Selatan, Indonesia
+ldii in Kota Administrasi Jakarta Timur, Indonesia
+ldii in Kabupaten Bogor, Indonesia
+ldii in Kabupaten Sukabumi, Indonesia
+ldii in Kabupaten Cianjur, Indonesia
+ldii in Kabupaten Bandung, Indonesia
+ldii in Kabupaten Garut, Indonesia
+ldii in Kabupaten Tasikmalaya, Indonesia
+ldii in Kabupaten Ciamis, Indonesia
+ldii in Kabupaten Kuningan, Indonesia
+ldii in Kabupaten Cirebon, Indonesia
+ldii in Kabupaten Majalengka, Indonesia
+ldii in Kabupaten Sumedang, Indonesia
+ldii in Kabupaten Indramayu, Indonesia
+ldii in Kabupaten Subang, Indonesia
+ldii in Kabupaten Purwakarta, Indonesia
+ldii in Kabupaten Karawang, Indonesia
+ldii in Kabupaten Bekasi, Indonesia
+ldii in Kabupaten Bandung Barat, Indonesia
+ldii in Kabupaten Pangandaran, Indonesia
+ldii in Kota Bogor, Indonesia
+ldii in Kota Sukabumi, Indonesia
+ldii in Kota Bandung, Indonesia
+ldii in Kota Cirebon, Indonesia
+ldii in Kota Bekasi, Indonesia
+ldii in Kota Depok, Indonesia
+ldii in Kota Cimahi, Indonesia
+ldii in Kota Tasikmalaya, Indonesia
+ldii in Kota Banjar, Indonesia
+ldii in Kabupaten Cilacap, Indonesia
+ldii in Kabupaten Banyumas, Indonesia
+ldii in Kabupaten Purbalingga, Indonesia
+ldii in Kabupaten Banjarnegara, Indonesia
+ldii in Kabupaten Kebumen, Indonesia
+ldii in Kabupaten Purworejo, Indonesia
+ldii in Kabupaten Wonosobo, Indonesia
+ldii in Kabupaten Magelang, Indonesia
+ldii in Kabupaten Boyolali, Indonesia
+ldii in Kabupaten Klaten, Indonesia
+ldii in Kabupaten Sukoharjo, Indonesia
+ldii in Kabupaten Wonogiri, Indonesia
+ldii in Kabupaten Karanganyar, Indonesia
+ldii in Kabupaten Sragen, Indonesia
+ldii in Kabupaten Grobogan, Indonesia
+ldii in Kabupaten Blora, Indonesia
+ldii in Kabupaten Rembang, Indonesia
+ldii in Kabupaten Pati, Indonesia
+ldii in Kabupaten Kudus, Indonesia
+ldii in Kabupaten Jepara, Indonesia
+ldii in Kabupaten Demak, Indonesia
+ldii in Kabupaten Semarang, Indonesia
+ldii in Kabupaten Temanggung, Indonesia
+ldii in Kabupaten Kendal, Indonesia
+ldii in Kabupaten Batang, Indonesia
+ldii in Kabupaten Pekalongan, Indonesia
+ldii in Kabupaten Pemalang, Indonesia
+ldii in Kabupaten Tegal, Indonesia
+ldii in Kabupaten Brebes, Indonesia
+ldii in Kota Magelang, Indonesia
+ldii in Kota Surakarta, Indonesia
+ldii in Kota Salatiga, Indonesia
+ldii in Kota Semarang, Indonesia
+ldii in Kota Pekalongan, Indonesia
+ldii in Kota Tegal, Indonesia
+ldii in Kabupaten Kulon Progo, Indonesia
+ldii in Kabupaten Bantul, Indonesia
+ldii in Kabupaten Gunungkidul, Indonesia
+ldii in Kabupaten Sleman, Indonesia
+ldii in Kota Yogyakarta, Indonesia
+ldii in Kabupaten Pacitan, Indonesia
+ldii in Kabupaten Ponorogo, Indonesia
+ldii in Kabupaten Trenggalek, Indonesia
+ldii in Kabupaten Tulungagung, Indonesia
+ldii in Kabupaten Blitar, Indonesia
+ldii in Kabupaten Kediri, Indonesia
+ldii in Kabupaten Malang, Indonesia
+ldii in Kabupaten Lumajang, Indonesia
+ldii in Kabupaten Jember, Indonesia
+ldii in Kabupaten Banyuwangi, Indonesia
+ldii in Kabupaten Bondowoso, Indonesia
+ldii in Kabupaten Situbondo, Indonesia
+ldii in Kabupaten Probolinggo, Indonesia
+ldii in Kabupaten Pasuruan, Indonesia
+ldii in Kabupaten Sidoarjo, Indonesia
+ldii in Kabupaten Mojokerto, Indonesia
+ldii in Kabupaten Jombang, Indonesia
+ldii in Kabupaten Nganjuk, Indonesia
+ldii in Kabupaten Madiun, Indonesia
+ldii in Kabupaten Magetan, Indonesia
+ldii in Kabupaten Ngawi, Indonesia
+ldii in Kabupaten Bojonegoro, Indonesia
+ldii in Kabupaten Tuban, Indonesia
+ldii in Kabupaten Lamongan, Indonesia
+ldii in Kabupaten Gresik, Indonesia
+ldii in Kabupaten Bangkalan, Indonesia
+ldii in Kabupaten Sampang, Indonesia
+ldii in Kabupaten Pamekasan, Indonesia
+ldii in Kabupaten Sumenep, Indonesia
+ldii in Kota Kediri, Indonesia
+ldii in Kota Blitar, Indonesia
+ldii in Kota Malang, Indonesia
+ldii in Kota Probolinggo, Indonesia
+ldii in Kota Pasuruan, Indonesia
+ldii in Kota Mojokerto, Indonesia
+ldii in Kota Madiun, Indonesia
+ldii in Kota Surabaya, Indonesia
+ldii in Kota Batu, Indonesia
+ldii in Kabupaten Pandeglang, Indonesia
+ldii in Kabupaten Lebak, Indonesia
+ldii in Kabupaten Tangerang, Indonesia
+ldii in Kabupaten Serang, Indonesia
+ldii in Kota Tangerang, Indonesia
+ldii in Kota Cilegon, Indonesia
+ldii in Kota Serang, Indonesia
+ldii in Kota Tangerang Selatan, Indonesia
+ldii in Kabupaten Jembrana, Indonesia
+ldii in Kabupaten Tabanan, Indonesia
+ldii in Kabupaten Badung, Indonesia
+ldii in Kabupaten Gianyar, Indonesia
+ldii in Kabupaten Klungkung, Indonesia
+ldii in Kabupaten Bangli, Indonesia
+ldii in Kabupaten Karangasem, Indonesia
+ldii in Kabupaten Buleleng, Indonesia
+ldii in Kota Denpasar, Indonesia
+ldii in Kabupaten Lombok Barat, Indonesia
+ldii in Kabupaten Lombok Tengah, Indonesia
+ldii in Kabupaten Lombok Timur, Indonesia
+ldii in Kabupaten Sumbawa, Indonesia
+ldii in Kabupaten Dompu, Indonesia
+ldii in Kabupaten Bima, Indonesia
+ldii in Kabupaten Sumbawa Barat, Indonesia
+ldii in Kabupaten Lombok Utara, Indonesia
+ldii in Kota Mataram, Indonesia
+ldii in Kota Bima, Indonesia
+ldii in Kabupaten Kupang, Indonesia
+ldii in Kabupaten Timor Tengah Selatan, Indonesia
+ldii in Kabupaten Timor Tengah Utara, Indonesia
+ldii in Kabupaten Belu, Indonesia
+ldii in Kabupaten Alor, Indonesia
+ldii in Kabupaten Flores Timur, Indonesia
+ldii in Kabupaten Sikka, Indonesia
+ldii in Kabupaten Ende, Indonesia
+ldii in Kabupaten Ngada, Indonesia
+ldii in Kabupaten Manggarai, Indonesia
+ldii in Kabupaten Sumba Timur, Indonesia
+ldii in Kabupaten Sumba Barat, Indonesia
+ldii in Kabupaten Lembata, Indonesia
+ldii in Kabupaten Rote Ndao, Indonesia
+ldii in Kabupaten Manggarai Barat, Indonesia
+ldii in Kabupaten Nagekeo, Indonesia
+ldii in Kabupaten Sumba Tengah, Indonesia
+ldii in Kabupaten Sumba Barat Daya, Indonesia
+ldii in Kabupaten Manggarai Timur, Indonesia
+ldii in Kabupaten Sabu Raijua, Indonesia
+ldii in Kabupaten Malaka, Indonesia
+ldii in Kota Kupang, Indonesia
+ldii in Kabupaten Sambas, Indonesia
+ldii in Kabupaten Mempawah, Indonesia
+ldii in Kabupaten Sanggau, Indonesia
+ldii in Kabupaten Ketapang, Indonesia
+ldii in Kabupaten Sintang, Indonesia
+ldii in Kabupaten Kapuas Hulu, Indonesia
+ldii in Kabupaten Bengkayang, Indonesia
+ldii in Kabupaten Landak, Indonesia
+ldii in Kabupaten Sekadau, Indonesia
+ldii in Kabupaten Melawi, Indonesia
+ldii in Kabupaten Kayong Utara, Indonesia
+ldii in Kabupaten Kubu Raya, Indonesia
+ldii in Kota Pontianak, Indonesia
+ldii in Kota Singkawang, Indonesia
+ldii in Kabupaten Kotawaringin Barat, Indonesia
+ldii in Kabupaten Kotawaringin Timur, Indonesia
+ldii in Kabupaten Kapuas, Indonesia
+ldii in Kabupaten Barito Selatan, Indonesia
+ldii in Kabupaten Barito Utara, Indonesia
+ldii in Kabupaten Katingan, Indonesia
+ldii in Kabupaten Seruyan, Indonesia
+ldii in Kabupaten Sukamara, Indonesia
+ldii in Kabupaten Lamandau, Indonesia
+ldii in Kabupaten Gunung Mas, Indonesia
+ldii in Kabupaten Pulang Pisau, Indonesia
+ldii in Kabupaten Murung Raya, Indonesia
+ldii in Kabupaten Barito Timur, Indonesia
+ldii in Kota Palangkaraya, Indonesia
+ldii in Kabupaten Tanah Laut, Indonesia
+ldii in Kabupaten Kotabaru, Indonesia
+ldii in Kabupaten Banjar, Indonesia
+ldii in Kabupaten Barito Kuala, Indonesia
+ldii in Kabupaten Tapin, Indonesia
+ldii in Kabupaten Hulu Sungai Selatan, Indonesia
+ldii in Kabupaten Hulu Sungai Tengah, Indonesia
+ldii in Kabupaten Hulu Sungai Utara, Indonesia
+ldii in Kabupaten Tabalong, Indonesia
+ldii in Kabupaten Tanah Bumbu, Indonesia
+ldii in Kabupaten Balangan, Indonesia
+ldii in Kota Banjarmasin, Indonesia
+ldii in Kota Banjarbaru, Indonesia
+ldii in Kabupaten Paser, Indonesia
+ldii in Kabupaten Kutai Kartanegara, Indonesia
+ldii in Kabupaten Berau, Indonesia
+ldii in Kabupaten Kutai Barat, Indonesia
+ldii in Kabupaten Kutai Timur, Indonesia
+ldii in Kabupaten Penajam Paser Utara, Indonesia
+ldii in Kabupaten Mahakam Ulu, Indonesia
+ldii in Kota Balikpapan, Indonesia
+ldii in Kota Samarinda, Indonesia
+ldii in Kota Bontang, Indonesia
+ldii in Kabupaten Bulungan, Indonesia
+ldii in Kabupaten Malinau, Indonesia
+ldii in Kabupaten Nunukan, Indonesia
+ldii in Kabupaten Tana Tidung, Indonesia
+ldii in Kota Tarakan, Indonesia
+ldii in Kabupaten Bolaang Mongondow, Indonesia
+ldii in Kabupaten Minahasa, Indonesia
+ldii in Kabupaten Kepulauan Sangihe, Indonesia
+ldii in Kabupaten Kepulauan Talaud, Indonesia
+ldii in Kabupaten Minahasa Selatan, Indonesia
+ldii in Kabupaten Minahasa Utara, Indonesia
+ldii in Kabupaten Minahasa Tenggara, Indonesia
+ldii in Kabupaten Bolaang Mongondow Utara, Indonesia
+ldii in Kabupaten Kep. Siau Tagulandang Biaro, Indonesia
+ldii in Kabupaten Bolaang Mongondow Timur, Indonesia
+ldii in Kabupaten Bolaang Mongondow Selatan, Indonesia
+ldii in Kota Manado, Indonesia
+ldii in Kota Bitung, Indonesia
+ldii in Kota Tomohon, Indonesia
+ldii in Kota Kotamobagu, Indonesia
+ldii in Kabupaten Banggai, Indonesia
+ldii in Kabupaten Poso, Indonesia
+ldii in Kabupaten Donggala, Indonesia
+ldii in Kabupaten Toli-Toli, Indonesia
+ldii in Kabupaten Buol, Indonesia
+ldii in Kabupaten Morowali, Indonesia
+ldii in Kabupaten Banggai Kepulauan, Indonesia
+ldii in Kabupaten Parigi Moutong, Indonesia
+ldii in Kabupaten Tojo Una Una, Indonesia
+ldii in Kabupaten Sigi, Indonesia
+ldii in Kabupaten Banggai Laut, Indonesia
+ldii in Kabupaten Morowali Utara, Indonesia
+ldii in Kota Palu, Indonesia
+ldii in Kabupaten Kepulauan Selayar, Indonesia
+ldii in Kabupaten Bulukumba, Indonesia
+ldii in Kabupaten Bantaeng, Indonesia
+ldii in Kabupaten Jeneponto, Indonesia
+ldii in Kabupaten Takalar, Indonesia
+ldii in Kabupaten Gowa, Indonesia
+ldii in Kabupaten Sinjai, Indonesia
+ldii in Kabupaten Bone, Indonesia
+ldii in Kabupaten Maros, Indonesia
+ldii in Kabupaten Pangkajene dan Kepulauan, Indonesia
+ldii in Kabupaten Barru, Indonesia
+ldii in Kabupaten Soppeng, Indonesia
+ldii in Kabupaten Wajo, Indonesia
+ldii in Kabupaten Sidenreng Rappang, Indonesia
+ldii in Kabupaten Pinrang, Indonesia
+ldii in Kabupaten Enrekang, Indonesia
+ldii in Kabupaten Luwu, Indonesia
+ldii in Kabupaten Tana Toraja, Indonesia
+ldii in Kabupaten Luwu Utara, Indonesia
+ldii in Kabupaten Luwu Timur, Indonesia
+ldii in Kabupaten Toraja Utara, Indonesia
+ldii in Kota Makassar, Indonesia
+ldii in Kota Parepare, Indonesia
+ldii in Kota Palopo, Indonesia
+ldii in Kabupaten Kolaka, Indonesia
+ldii in Kabupaten Konawe, Indonesia
+ldii in Kabupaten Muna, Indonesia
+ldii in Kabupaten Buton, Indonesia
+ldii in Kabupaten Konawe Selatan, Indonesia
+ldii in Kabupaten Bombana, Indonesia
+ldii in Kabupaten Wakatobi, Indonesia
+ldii in Kabupaten Kolaka Utara, Indonesia
+ldii in Kabupaten Konawe Utara, Indonesia
+ldii in Kabupaten Buton Utara, Indonesia
+ldii in Kabupaten Kolaka Timur, Indonesia
+ldii in Kabupaten Konawe Kepulauan, Indonesia
+ldii in Kabupaten Muna Barat, Indonesia
+ldii in Kabupaten Buton Tengah, Indonesia
+ldii in Kabupaten Buton Selatan, Indonesia
+ldii in Kota Kendari, Indonesia
+ldii in Kota Bau Bau, Indonesia
+ldii in Kabupaten Gorontalo, Indonesia
+ldii in Kabupaten Boalemo, Indonesia
+ldii in Kabupaten Bone Bolango, Indonesia
+ldii in Kabupaten Pohuwato, Indonesia
+ldii in Kabupaten Gorontalo Utara, Indonesia
+ldii in Kota Gorontalo, Indonesia
+ldii in Kabupaten Pasangkayu, Indonesia
+ldii in Kabupaten Mamuju, Indonesia
+ldii in Kabupaten Mamasa, Indonesia
+ldii in Kabupaten Polewali Mandar, Indonesia
+ldii in Kabupaten Majene, Indonesia
+ldii in Kabupaten Mamuju Tengah, Indonesia
+ldii in Kabupaten Maluku Tengah, Indonesia
+ldii in Kabupaten Maluku Tenggara, Indonesia
+ldii in Kabupaten Kepulauan Tanimbar, Indonesia
+ldii in Kabupaten Buru, Indonesia
+ldii in Kabupaten Seram Bagian Timur, Indonesia
+ldii in Kabupaten Seram Bagian Barat, Indonesia
+ldii in Kabupaten Kepulauan Aru, Indonesia
+ldii in Kabupaten Maluku Barat Daya, Indonesia
+ldii in Kabupaten Buru Selatan, Indonesia
+ldii in Kota Ambon, Indonesia
+ldii in Kota Tual, Indonesia
+ldii in Kabupaten Halmahera Barat, Indonesia
+ldii in Kabupaten Halmahera Tengah, Indonesia
+ldii in Kabupaten Halmahera Utara, Indonesia
+ldii in Kabupaten Halmahera Selatan, Indonesia
+ldii in Kabupaten Kepulauan Sula, Indonesia
+ldii in Kabupaten Halmahera Timur, Indonesia
+ldii in Kabupaten Pulau Morotai, Indonesia
+ldii in Kabupaten Pulau Taliabu, Indonesia
+ldii in Kota Ternate, Indonesia
+ldii in Kota Tidore Kepulauan, Indonesia
+ldii in Kabupaten Jayapura, Indonesia
+ldii in Kabupaten Kepulauan Yapen, Indonesia
+ldii in Kabupaten Biak Numfor, Indonesia
+ldii in Kabupaten Sarmi, Indonesia
+ldii in Kabupaten Keerom, Indonesia
+ldii in Kabupaten Waropen, Indonesia
+ldii in Kabupaten Supiori, Indonesia
+ldii in Kabupaten Mamberamo Raya, Indonesia
+ldii in Kota Jayapura, Indonesia
+ldii in Kabupaten Manokwari, Indonesia
+ldii in Kabupaten Fak Fak, Indonesia
+ldii in Kabupaten Teluk Bintuni, Indonesia
+ldii in Kabupaten Teluk Wondama, Indonesia
+ldii in Kabupaten Kaimana, Indonesia
+ldii in Kabupaten Manokwari Selatan, Indonesia
+ldii in Kabupaten Pegunungan Arfak, Indonesia
+ldii in Kabupaten Merauke, Indonesia
+ldii in Kabupaten Boven Digoel, Indonesia
+ldii in Kabupaten Mappi, Indonesia
+ldii in Kabupaten Asmat, Indonesia
+ldii in Kabupaten Nabire, Indonesia
+ldii in Kabupaten Puncak Jaya, Indonesia
+ldii in Kabupaten Paniai, Indonesia
+ldii in Kabupaten Mimika, Indonesia
+ldii in Kabupaten Puncak, Indonesia
+ldii in Kabupaten Dogiyai, Indonesia
+ldii in Kabupaten Intan Jaya, Indonesia
+ldii in Kabupaten Deiyai, Indonesia
+ldii in Kabupaten Jayawijaya, Indonesia
+ldii in Kabupaten Pegunungan Bintang, Indonesia
+ldii in Kabupaten Yahukimo, Indonesia
+ldii in Kabupaten Tolikara, Indonesia
+ldii in Kabupaten Mamberamo Tengah, Indonesia
+ldii in Kabupaten Yalimo, Indonesia
+ldii in Kabupaten Lanny Jaya, Indonesia
+ldii in Kabupaten Nduga, Indonesia
+ldii in Kabupaten Sorong, Indonesia
+ldii in Kabupaten Sorong Selatan, Indonesia
+ldii in Kabupaten Raja Ampat, Indonesia
+ldii in Kabupaten Tambrauw, Indonesia
+ldii in Kabupaten Maybrat, Indonesia
+ldii in Kota Sorong, Indonesia

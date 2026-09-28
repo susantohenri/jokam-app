@@ -156,7 +156,7 @@ for batch_path in "${BATCH_FILES[@]}"; do
     update_status "scraping" "$BATCH_IDX" "$TOTAL_BATCHES" "$((BATCH_IDX - 1))" "$batch_name"
 
     # Jalankan Scraper
-    "$BINARY" -input "$batch_path" -results "$OUTPUT_FILE" -proxies-file "$CLEAN_PROXY_FILE" -c 1 -depth 10 -resume
+    "$BINARY" -input "$batch_path" -results "$OUTPUT_FILE" -proxies-file "$CLEAN_PROXY_FILE" -c 1 -depth 10 -pages-per-browser 2 -resume
 
     # Simpan Checkpoint
     echo "$batch_name" >> "$CHECKPOINT_FILE"

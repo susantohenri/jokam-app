@@ -1,11 +1,11 @@
-﻿{
-    "status":  "scraping",
-    "current_batch":  1,
-    "total_batches":  52,
-    "completed_batches":  0,
-    "percent_complete":  0,
-    "total_records":  0,
-    "current_file":  "batch_001.txt",
-    "next_run_at":  "",
-    "last_updated":  "2026-09-29 04:28:37"
+{
+  "status": "sleeping",
+  "current_batch": 1,
+  "total_batches": 52,
+  "completed_batches": 1,
+  "percent_complete": 1.92,
+  "total_records": 26,
+  "current_file": "batch_001.txt",
+  "next_run_at": "Siap dijalankan (Batch 2)",
+  "last_updated": "2026-09-29 05:11:00"
 }

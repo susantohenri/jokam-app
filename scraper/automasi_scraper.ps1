@@ -191,6 +191,7 @@ foreach ($batch in $remainingBatches) {
         "-proxies-file", "`"$CleanProxyFile`"",
         "-c", "1",
         "-depth", "10",
+        "-pages-per-browser", "2",
         "-resume"
     )
     

@@ -1,11 +1,11 @@
 ﻿{
-    "status":  "sleeping",
-    "current_batch":  10,
+    "status":  "scraping",
+    "current_batch":  16,
     "total_batches":  52,
-    "completed_batches":  10,
-    "percent_complete":  19.23,
-    "total_records":  579,
-    "current_file":  "batch_010.txt",
-    "next_run_at":  "2026-09-30 06:04:28",
-    "last_updated":  "2026-09-30 04:34:28"
+    "completed_batches":  15,
+    "percent_complete":  28.85,
+    "total_records":  1400,
+    "current_file":  "batch_016.txt",
+    "next_run_at":  "",
+    "last_updated":  "2026-09-30 14:29:21"
 }

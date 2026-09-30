@@ -1,0 +1,2942 @@
+[
+  {
+    "id": "p-001",
+    "city": "Kab. Aceh Besar",
+    "province": "Aceh",
+    "phone": "6285877859065"
+  },
+  {
+    "id": "p-002",
+    "city": "Kab. Aceh Tamiang",
+    "province": "Aceh",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-003",
+    "city": "Kab. Bener Meriah",
+    "province": "Aceh",
+    "phone": "6281372811213"
+  },
+  {
+    "id": "p-004",
+    "city": "Kab. Bener Meriah",
+    "province": "Aceh",
+    "phone": "6285211184712"
+  },
+  {
+    "id": "p-005",
+    "city": "Kab. Bener Meriah",
+    "province": "Aceh",
+    "phone": "6282238001881"
+  },
+  {
+    "id": "p-006",
+    "city": "Kab. Bireuen",
+    "province": "Aceh",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-007",
+    "city": "Kab. Central Aceh",
+    "province": "Aceh",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-008",
+    "city": "Kab. Southeast Aceh",
+    "province": "Aceh",
+    "phone": "6282390324359"
+  },
+  {
+    "id": "p-009",
+    "city": "Kota Banda Aceh",
+    "province": "Aceh",
+    "phone": "6285215206411"
+  },
+  {
+    "id": "p-010",
+    "city": "Kota Banda Aceh",
+    "province": "Aceh",
+    "phone": "6282361141232"
+  },
+  {
+    "id": "p-011",
+    "city": "Kota Banda Aceh",
+    "province": "Aceh",
+    "phone": "6281370029579"
+  },
+  {
+    "id": "p-012",
+    "city": "Kota Langsa",
+    "province": "Aceh",
+    "phone": "6281375874411"
+  },
+  {
+    "id": "p-013",
+    "city": "Kota Lhokseumawe",
+    "province": "Aceh",
+    "phone": "6281220673540"
+  },
+  {
+    "id": "p-014",
+    "city": "Kota Sabang",
+    "province": "Aceh",
+    "phone": "6285215283095"
+  },
+  {
+    "id": "p-015",
+    "city": "Kota Subulussalam",
+    "province": "Aceh",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-016",
+    "city": "Kab. Central Bengkulu",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-017",
+    "city": "Kab. Central Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6285369038080"
+  },
+  {
+    "id": "p-018",
+    "city": "Kab. Kaur",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-019",
+    "city": "Kab. Kepahiang",
+    "province": "Bengkulu",
+    "phone": "6285268496922"
+  },
+  {
+    "id": "p-020",
+    "city": "Kab. Lebong",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-021",
+    "city": "Kab. Mukomuko",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-022",
+    "city": "Kab. Mukomuko",
+    "province": "Bengkulu",
+    "phone": "6281367722470"
+  },
+  {
+    "id": "p-023",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6285267978314"
+  },
+  {
+    "id": "p-024",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6285268872101"
+  },
+  {
+    "id": "p-025",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6283113972581"
+  },
+  {
+    "id": "p-026",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-027",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6281228773553"
+  },
+  {
+    "id": "p-028",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6285268345432"
+  },
+  {
+    "id": "p-029",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6282374048755"
+  },
+  {
+    "id": "p-030",
+    "city": "Kab. North Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6282375166235"
+  },
+  {
+    "id": "p-031",
+    "city": "Kab. Rejang Lebong",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-032",
+    "city": "Kab. Rejang Lebong",
+    "province": "Bengkulu",
+    "phone": "6282211940930"
+  },
+  {
+    "id": "p-033",
+    "city": "Kab. Seluma",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-034",
+    "city": "Kab. South Bengkulu",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-035",
+    "city": "Kota Bengkulu",
+    "province": "Bengkulu",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-036",
+    "city": "Kota Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6285268077111"
+  },
+  {
+    "id": "p-037",
+    "city": "Kota Bengkulu",
+    "province": "Bengkulu",
+    "phone": "6283173524219"
+  },
+  {
+    "id": "p-038",
+    "city": "Kota South Jakarta",
+    "province": "DKI Jakarta",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-039",
+    "city": "Kab. Batang Hari",
+    "province": "Jambi",
+    "phone": "6281256884852"
+  },
+  {
+    "id": "p-040",
+    "city": "Kab. Batang Hari",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-041",
+    "city": "Kab. Batang Hari",
+    "province": "Jambi",
+    "phone": "6281366669319"
+  },
+  {
+    "id": "p-042",
+    "city": "Kab. Bungo",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-043",
+    "city": "Kab. Bungo",
+    "province": "Jambi",
+    "phone": "6282280142225"
+  },
+  {
+    "id": "p-044",
+    "city": "Kab. East Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-045",
+    "city": "Kab. East Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285266090644"
+  },
+  {
+    "id": "p-046",
+    "city": "Kab. East Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285378921019"
+  },
+  {
+    "id": "p-047",
+    "city": "Kab. East Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285366721256"
+  },
+  {
+    "id": "p-048",
+    "city": "Kab. Kerinci",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-049",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-050",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "6282175840443"
+  },
+  {
+    "id": "p-051",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "6282373534949"
+  },
+  {
+    "id": "p-052",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "6285208234231"
+  },
+  {
+    "id": "p-053",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "6285366430137"
+  },
+  {
+    "id": "p-054",
+    "city": "Kab. Merangin",
+    "province": "Jambi",
+    "phone": "6285357185073"
+  },
+  {
+    "id": "p-055",
+    "city": "Kab. Muaro Jambi",
+    "province": "Jambi",
+    "phone": "6281363100990"
+  },
+  {
+    "id": "p-056",
+    "city": "Kab. Muaro Jambi",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-057",
+    "city": "Kab. Muaro Jambi",
+    "province": "Jambi",
+    "phone": "6282372652306"
+  },
+  {
+    "id": "p-058",
+    "city": "Kab. Sarolangun",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-059",
+    "city": "Kab. Sarolangun",
+    "province": "Jambi",
+    "phone": "6285758154103"
+  },
+  {
+    "id": "p-060",
+    "city": "Kab. Sarolangun",
+    "province": "Jambi",
+    "phone": "6281366248165"
+  },
+  {
+    "id": "p-061",
+    "city": "Kab. Sarolangun",
+    "province": "Jambi",
+    "phone": "6281296150476"
+  },
+  {
+    "id": "p-062",
+    "city": "Kab. Tebo",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-063",
+    "city": "Kab. Tebo",
+    "province": "Jambi",
+    "phone": "6282269874906"
+  },
+  {
+    "id": "p-064",
+    "city": "Kab. Tebo",
+    "province": "Jambi",
+    "phone": "6285357690235"
+  },
+  {
+    "id": "p-065",
+    "city": "Kab. Tebo",
+    "province": "Jambi",
+    "phone": "6285609799473"
+  },
+  {
+    "id": "p-066",
+    "city": "Kab. Tebo",
+    "province": "Jambi",
+    "phone": "6282373225758"
+  },
+  {
+    "id": "p-067",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285382212440"
+  },
+  {
+    "id": "p-068",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-069",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6281366188172"
+  },
+  {
+    "id": "p-070",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285384773799"
+  },
+  {
+    "id": "p-071",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285266433736"
+  },
+  {
+    "id": "p-072",
+    "city": "Kab. West Tanjung Jabung",
+    "province": "Jambi",
+    "phone": "6285279660244"
+  },
+  {
+    "id": "p-073",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "6289652048267"
+  },
+  {
+    "id": "p-074",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-075",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "6289630302626"
+  },
+  {
+    "id": "p-076",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "6283169624277"
+  },
+  {
+    "id": "p-077",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "6285380809694"
+  },
+  {
+    "id": "p-078",
+    "city": "Kota Jambi",
+    "province": "Jambi",
+    "phone": "6281350652233"
+  },
+  {
+    "id": "p-079",
+    "city": "Kota Sungai Penuh",
+    "province": "Jambi",
+    "phone": "6281259646101"
+  },
+  {
+    "id": "p-080",
+    "city": "Kab. Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-081",
+    "city": "Kab. Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281339651098"
+  },
+  {
+    "id": "p-082",
+    "city": "Kab. Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6283157955354"
+  },
+  {
+    "id": "p-083",
+    "city": "Kab. Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281949249354"
+  },
+  {
+    "id": "p-084",
+    "city": "Kab. Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6283175274119"
+  },
+  {
+    "id": "p-085",
+    "city": "Kab. Central Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-086",
+    "city": "Kab. Central Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281995628410"
+  },
+  {
+    "id": "p-087",
+    "city": "Kab. East Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281949220354"
+  },
+  {
+    "id": "p-088",
+    "city": "Kab. East Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281929692354"
+  },
+  {
+    "id": "p-089",
+    "city": "Kab. East Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-090",
+    "city": "Kab. South Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-091",
+    "city": "Kab. South Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281279909286"
+  },
+  {
+    "id": "p-092",
+    "city": "Kab. West Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6285366494354"
+  },
+  {
+    "id": "p-093",
+    "city": "Kab. West Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-094",
+    "city": "Kota Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281632102594"
+  },
+  {
+    "id": "p-095",
+    "city": "Kota Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-096",
+    "city": "Kota Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6285267062798"
+  },
+  {
+    "id": "p-097",
+    "city": "Kota Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6281329401033"
+  },
+  {
+    "id": "p-098",
+    "city": "Kota Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "phone": "6285268214411"
+  },
+  {
+    "id": "p-099",
+    "city": "Kab. Bintan",
+    "province": "Kepulauan Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-100",
+    "city": "Kab. Bintan",
+    "province": "Kepulauan Riau",
+    "phone": "6281315081896"
+  },
+  {
+    "id": "p-101",
+    "city": "Kab. Karimun",
+    "province": "Kepulauan Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-102",
+    "city": "Kab. Natuna",
+    "province": "Kepulauan Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-103",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6281225271634"
+  },
+  {
+    "id": "p-104",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-105",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285669843541"
+  },
+  {
+    "id": "p-106",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285269912333"
+  },
+  {
+    "id": "p-107",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285669489798"
+  },
+  {
+    "id": "p-108",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "628998095856"
+  },
+  {
+    "id": "p-109",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6281532241042"
+  },
+  {
+    "id": "p-110",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6281292632538"
+  },
+  {
+    "id": "p-111",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6282184305483"
+  },
+  {
+    "id": "p-112",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285269808622"
+  },
+  {
+    "id": "p-113",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6282371780121"
+  },
+  {
+    "id": "p-114",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285269285823"
+  },
+  {
+    "id": "p-115",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285366187749"
+  },
+  {
+    "id": "p-116",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6282234604305"
+  },
+  {
+    "id": "p-117",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6282185077312"
+  },
+  {
+    "id": "p-118",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285252926408"
+  },
+  {
+    "id": "p-119",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6285381373615"
+  },
+  {
+    "id": "p-120",
+    "city": "Kab. Central Lampung",
+    "province": "Lampung",
+    "phone": "6282280319168"
+  },
+  {
+    "id": "p-121",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282380893073"
+  },
+  {
+    "id": "p-122",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-123",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282131851131"
+  },
+  {
+    "id": "p-124",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285658773354"
+  },
+  {
+    "id": "p-125",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282257323073"
+  },
+  {
+    "id": "p-126",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282179354343"
+  },
+  {
+    "id": "p-127",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282179773082"
+  },
+  {
+    "id": "p-128",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6289505778721"
+  },
+  {
+    "id": "p-129",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285369461696"
+  },
+  {
+    "id": "p-130",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285366276682"
+  },
+  {
+    "id": "p-131",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6281369012283"
+  },
+  {
+    "id": "p-132",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285381690214"
+  },
+  {
+    "id": "p-133",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285217723139"
+  },
+  {
+    "id": "p-134",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285366753370"
+  },
+  {
+    "id": "p-135",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6281369255210"
+  },
+  {
+    "id": "p-136",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282177480847"
+  },
+  {
+    "id": "p-137",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282339095461"
+  },
+  {
+    "id": "p-138",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6282281354313"
+  },
+  {
+    "id": "p-139",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285273949770"
+  },
+  {
+    "id": "p-140",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285279527468"
+  },
+  {
+    "id": "p-141",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285279754177"
+  },
+  {
+    "id": "p-142",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6281271541278"
+  },
+  {
+    "id": "p-143",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6281370236164"
+  },
+  {
+    "id": "p-144",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285246865714"
+  },
+  {
+    "id": "p-145",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285369469313"
+  },
+  {
+    "id": "p-146",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285217331275"
+  },
+  {
+    "id": "p-147",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6285269672915"
+  },
+  {
+    "id": "p-148",
+    "city": "Kab. East Lampung",
+    "province": "Lampung",
+    "phone": "6281272694564"
+  },
+  {
+    "id": "p-149",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "6287794630534"
+  },
+  {
+    "id": "p-150",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "6281326851199"
+  },
+  {
+    "id": "p-151",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-152",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "6285282912802"
+  },
+  {
+    "id": "p-153",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "6285268473727"
+  },
+  {
+    "id": "p-154",
+    "city": "Kab. Mesuji",
+    "province": "Lampung",
+    "phone": "6282280512379"
+  },
+  {
+    "id": "p-155",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282378442216"
+  },
+  {
+    "id": "p-156",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282176435310"
+  },
+  {
+    "id": "p-157",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-158",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6281272038505"
+  },
+  {
+    "id": "p-159",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6281274112400"
+  },
+  {
+    "id": "p-160",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285709203911"
+  },
+  {
+    "id": "p-161",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282269553136"
+  },
+  {
+    "id": "p-162",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282375697314"
+  },
+  {
+    "id": "p-163",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285330482106"
+  },
+  {
+    "id": "p-164",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285788882569"
+  },
+  {
+    "id": "p-165",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6281328734833"
+  },
+  {
+    "id": "p-166",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282279991209"
+  },
+  {
+    "id": "p-167",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285269305562"
+  },
+  {
+    "id": "p-168",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285279959030"
+  },
+  {
+    "id": "p-169",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6281379343970"
+  },
+  {
+    "id": "p-170",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6282179224311"
+  },
+  {
+    "id": "p-171",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285809635313"
+  },
+  {
+    "id": "p-172",
+    "city": "Kab. North Lampung",
+    "province": "Lampung",
+    "phone": "6285267689240"
+  },
+  {
+    "id": "p-173",
+    "city": "Kab. Pesawaran",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-174",
+    "city": "Kab. Pesawaran",
+    "province": "Lampung",
+    "phone": "6285841318797"
+  },
+  {
+    "id": "p-175",
+    "city": "Kab. Pesawaran",
+    "province": "Lampung",
+    "phone": "6283184017955"
+  },
+  {
+    "id": "p-176",
+    "city": "Kab. Pesawaran",
+    "province": "Lampung",
+    "phone": "6281933032022"
+  },
+  {
+    "id": "p-177",
+    "city": "Kab. Pringsewu",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-178",
+    "city": "Kab. Pringsewu",
+    "province": "Lampung",
+    "phone": "6285222939354"
+  },
+  {
+    "id": "p-179",
+    "city": "Kab. Pringsewu",
+    "province": "Lampung",
+    "phone": "6281318252158"
+  },
+  {
+    "id": "p-180",
+    "city": "Kab. Pringsewu",
+    "province": "Lampung",
+    "phone": "6285269759394"
+  },
+  {
+    "id": "p-181",
+    "city": "Kab. Pringsewu",
+    "province": "Lampung",
+    "phone": "6281273439313"
+  },
+  {
+    "id": "p-182",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282139847818"
+  },
+  {
+    "id": "p-183",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-184",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285380083547"
+  },
+  {
+    "id": "p-185",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285279068572"
+  },
+  {
+    "id": "p-186",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282112782354"
+  },
+  {
+    "id": "p-187",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281230141514"
+  },
+  {
+    "id": "p-188",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281272288557"
+  },
+  {
+    "id": "p-189",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285269983141"
+  },
+  {
+    "id": "p-190",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "628983719994"
+  },
+  {
+    "id": "p-191",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285366701543"
+  },
+  {
+    "id": "p-192",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281298883367"
+  },
+  {
+    "id": "p-193",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281278932102"
+  },
+  {
+    "id": "p-194",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281364149724"
+  },
+  {
+    "id": "p-195",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "628999979173"
+  },
+  {
+    "id": "p-196",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285279330963"
+  },
+  {
+    "id": "p-197",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281272411110"
+  },
+  {
+    "id": "p-198",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281369036727"
+  },
+  {
+    "id": "p-199",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282183135091"
+  },
+  {
+    "id": "p-200",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285269082208"
+  },
+  {
+    "id": "p-201",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6283180009105"
+  },
+  {
+    "id": "p-202",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281274516669"
+  },
+  {
+    "id": "p-203",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282177351954"
+  },
+  {
+    "id": "p-204",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281317743354"
+  },
+  {
+    "id": "p-205",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282182391666"
+  },
+  {
+    "id": "p-206",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6281271721943"
+  },
+  {
+    "id": "p-207",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6283838483216"
+  },
+  {
+    "id": "p-208",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285313932558"
+  },
+  {
+    "id": "p-209",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282375376706"
+  },
+  {
+    "id": "p-210",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "62895421071900"
+  },
+  {
+    "id": "p-211",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285840716354"
+  },
+  {
+    "id": "p-212",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285368334055"
+  },
+  {
+    "id": "p-213",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "62895377407030"
+  },
+  {
+    "id": "p-214",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6285266412220"
+  },
+  {
+    "id": "p-215",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282210963042"
+  },
+  {
+    "id": "p-216",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6289673110500"
+  },
+  {
+    "id": "p-217",
+    "city": "Kab. South Lampung",
+    "province": "Lampung",
+    "phone": "6282374837195"
+  },
+  {
+    "id": "p-218",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "6285279562279"
+  },
+  {
+    "id": "p-219",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-220",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "628527956229"
+  },
+  {
+    "id": "p-221",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "6281299028561"
+  },
+  {
+    "id": "p-222",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "6285768830313"
+  },
+  {
+    "id": "p-223",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "6281369532570"
+  },
+  {
+    "id": "p-224",
+    "city": "Kab. Tanggamus",
+    "province": "Lampung",
+    "phone": "6285764401240"
+  },
+  {
+    "id": "p-225",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-226",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282306904291"
+  },
+  {
+    "id": "p-227",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6281369993495"
+  },
+  {
+    "id": "p-228",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6281379818234"
+  },
+  {
+    "id": "p-229",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "62895428221313"
+  },
+  {
+    "id": "p-230",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "628561043361"
+  },
+  {
+    "id": "p-231",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282237777731"
+  },
+  {
+    "id": "p-232",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282182255530"
+  },
+  {
+    "id": "p-233",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "62852274886"
+  },
+  {
+    "id": "p-234",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285381176016"
+  },
+  {
+    "id": "p-235",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285669843541"
+  },
+  {
+    "id": "p-236",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285384638578"
+  },
+  {
+    "id": "p-237",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282280512379"
+  },
+  {
+    "id": "p-238",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285279227892"
+  },
+  {
+    "id": "p-239",
+    "city": "Kab. Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282377049577"
+  },
+  {
+    "id": "p-240",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-241",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6285267606276"
+  },
+  {
+    "id": "p-242",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282374442279"
+  },
+  {
+    "id": "p-243",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6281278400070"
+  },
+  {
+    "id": "p-244",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282282032887"
+  },
+  {
+    "id": "p-245",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282282823447"
+  },
+  {
+    "id": "p-246",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282379638900"
+  },
+  {
+    "id": "p-247",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6281272627539"
+  },
+  {
+    "id": "p-248",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282373755447"
+  },
+  {
+    "id": "p-249",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6285285625582"
+  },
+  {
+    "id": "p-250",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6285366726630"
+  },
+  {
+    "id": "p-251",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6282112685864"
+  },
+  {
+    "id": "p-252",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6281284785206"
+  },
+  {
+    "id": "p-253",
+    "city": "Kab. Way Kanan",
+    "province": "Lampung",
+    "phone": "6285269548814"
+  },
+  {
+    "id": "p-254",
+    "city": "Kab. West Lampung",
+    "province": "Lampung",
+    "phone": "6282377129993"
+  },
+  {
+    "id": "p-255",
+    "city": "Kab. West Lampung",
+    "province": "Lampung",
+    "phone": "6281369689313"
+  },
+  {
+    "id": "p-256",
+    "city": "Kab. West Lampung",
+    "province": "Lampung",
+    "phone": "6282279616454"
+  },
+  {
+    "id": "p-257",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-258",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285789668007"
+  },
+  {
+    "id": "p-259",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6281369311322"
+  },
+  {
+    "id": "p-260",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282264844315"
+  },
+  {
+    "id": "p-261",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285312120857"
+  },
+  {
+    "id": "p-262",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6285788066980"
+  },
+  {
+    "id": "p-263",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6282280153345"
+  },
+  {
+    "id": "p-264",
+    "city": "Kab. West Tulang Bawang",
+    "province": "Lampung",
+    "phone": "6281279235776"
+  },
+  {
+    "id": "p-265",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6282385381140"
+  },
+  {
+    "id": "p-266",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-267",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6287778038780"
+  },
+  {
+    "id": "p-268",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6281369737409"
+  },
+  {
+    "id": "p-269",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6281272175037"
+  },
+  {
+    "id": "p-270",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6282179934701"
+  },
+  {
+    "id": "p-271",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6281272700070"
+  },
+  {
+    "id": "p-272",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "628994296469"
+  },
+  {
+    "id": "p-273",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6281379609509"
+  },
+  {
+    "id": "p-274",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6289663114011"
+  },
+  {
+    "id": "p-275",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6285269044741"
+  },
+  {
+    "id": "p-276",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6285379668190"
+  },
+  {
+    "id": "p-277",
+    "city": "Kota Bandar Lampung",
+    "province": "Lampung",
+    "phone": "6285367551354"
+  },
+  {
+    "id": "p-278",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "6289628828348"
+  },
+  {
+    "id": "p-279",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "6281272593513"
+  },
+  {
+    "id": "p-280",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "6282379459339"
+  },
+  {
+    "id": "p-281",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "6287798981743"
+  },
+  {
+    "id": "p-282",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-283",
+    "city": "Kota Metro",
+    "province": "Lampung",
+    "phone": "6285312120857"
+  },
+  {
+    "id": "p-284",
+    "city": "Kab. Bengkalis",
+    "province": "Riau",
+    "phone": "6281267301339"
+  },
+  {
+    "id": "p-285",
+    "city": "Kab. Bengkalis",
+    "province": "Riau",
+    "phone": "6285278656571"
+  },
+  {
+    "id": "p-286",
+    "city": "Kab. Bengkalis",
+    "province": "Riau",
+    "phone": "6285271783354"
+  },
+  {
+    "id": "p-287",
+    "city": "Kab. Bengkalis",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-288",
+    "city": "Kab. Bengkalis",
+    "province": "Riau",
+    "phone": "6285356115575"
+  },
+  {
+    "id": "p-289",
+    "city": "Kab. Indragiri Hilir",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-290",
+    "city": "Kab. Indragiri Hulu",
+    "province": "Riau",
+    "phone": "6281261741465"
+  },
+  {
+    "id": "p-291",
+    "city": "Kab. Indragiri Hulu",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-292",
+    "city": "Kab. Indragiri Hulu",
+    "province": "Riau",
+    "phone": "6281268877198"
+  },
+  {
+    "id": "p-293",
+    "city": "Kab. Indragiri Hulu",
+    "province": "Riau",
+    "phone": "6285374207933"
+  },
+  {
+    "id": "p-294",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6282391111188"
+  },
+  {
+    "id": "p-295",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-296",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6285274720609"
+  },
+  {
+    "id": "p-297",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6281365660670"
+  },
+  {
+    "id": "p-298",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6282132320435"
+  },
+  {
+    "id": "p-299",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6285265342067"
+  },
+  {
+    "id": "p-300",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6282256284136"
+  },
+  {
+    "id": "p-301",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6281371153591"
+  },
+  {
+    "id": "p-302",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6281266197962"
+  },
+  {
+    "id": "p-303",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6281266046651"
+  },
+  {
+    "id": "p-304",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6285375631673"
+  },
+  {
+    "id": "p-305",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6285271852354"
+  },
+  {
+    "id": "p-306",
+    "city": "Kab. Kampar",
+    "province": "Riau",
+    "phone": "6282169656179"
+  },
+  {
+    "id": "p-307",
+    "city": "Kab. Kuantan Singingi",
+    "province": "Riau",
+    "phone": "6281276250313"
+  },
+  {
+    "id": "p-308",
+    "city": "Kab. Kuantan Singingi",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-309",
+    "city": "Kab. Kuantan Singingi",
+    "province": "Riau",
+    "phone": "6281217727438"
+  },
+  {
+    "id": "p-310",
+    "city": "Kab. Kuantan Singingi",
+    "province": "Riau",
+    "phone": "6285272347346"
+  },
+  {
+    "id": "p-311",
+    "city": "Kab. Pelalawan",
+    "province": "Riau",
+    "phone": "6281276208667"
+  },
+  {
+    "id": "p-312",
+    "city": "Kab. Pelalawan",
+    "province": "Riau",
+    "phone": "6285278712019"
+  },
+  {
+    "id": "p-313",
+    "city": "Kab. Pelalawan",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-314",
+    "city": "Kab. Pelalawan",
+    "province": "Riau",
+    "phone": "6282388845005"
+  },
+  {
+    "id": "p-315",
+    "city": "Kab. Pelalawan",
+    "province": "Riau",
+    "phone": "6282388388599"
+  },
+  {
+    "id": "p-316",
+    "city": "Kab. Rokan Hilir",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-317",
+    "city": "Kab. Rokan Hilir",
+    "province": "Riau",
+    "phone": "6285271019965"
+  },
+  {
+    "id": "p-318",
+    "city": "Kab. Rokan Hilir",
+    "province": "Riau",
+    "phone": "6285263133616"
+  },
+  {
+    "id": "p-319",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6282390259354"
+  },
+  {
+    "id": "p-320",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6281993119354"
+  },
+  {
+    "id": "p-321",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-322",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6281261301438"
+  },
+  {
+    "id": "p-323",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6282250543859"
+  },
+  {
+    "id": "p-324",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6285365460888"
+  },
+  {
+    "id": "p-325",
+    "city": "Kab. Rokan Hulu",
+    "province": "Riau",
+    "phone": "6282284333603"
+  },
+  {
+    "id": "p-326",
+    "city": "Kab. Siak",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-327",
+    "city": "Kab. Siak",
+    "province": "Riau",
+    "phone": "6282386231671"
+  },
+  {
+    "id": "p-328",
+    "city": "Kab. Siak",
+    "province": "Riau",
+    "phone": "6287892638406"
+  },
+  {
+    "id": "p-329",
+    "city": "Kab. Siak",
+    "province": "Riau",
+    "phone": "6285272844433"
+  },
+  {
+    "id": "p-330",
+    "city": "Kab. Siak",
+    "province": "Riau",
+    "phone": "6281268851450"
+  },
+  {
+    "id": "p-331",
+    "city": "Kota Dumai",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-332",
+    "city": "Kota Dumai",
+    "province": "Riau",
+    "phone": "6285278734411"
+  },
+  {
+    "id": "p-333",
+    "city": "Kota Dumai",
+    "province": "Riau",
+    "phone": "6281386691336"
+  },
+  {
+    "id": "p-334",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-335",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6281374128355"
+  },
+  {
+    "id": "p-336",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6281268815284"
+  },
+  {
+    "id": "p-337",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6285274949869"
+  },
+  {
+    "id": "p-338",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6285331487807"
+  },
+  {
+    "id": "p-339",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6285271884544"
+  },
+  {
+    "id": "p-340",
+    "city": "Kota Pekanbaru",
+    "province": "Riau",
+    "phone": "6285278513235"
+  },
+  {
+    "id": "p-341",
+    "city": "Kab. Agam",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-342",
+    "city": "Kab. Dharmasraya",
+    "province": "Sumatera Barat",
+    "phone": "6282389226443"
+  },
+  {
+    "id": "p-343",
+    "city": "Kab. Dharmasraya",
+    "province": "Sumatera Barat",
+    "phone": "628122122313"
+  },
+  {
+    "id": "p-344",
+    "city": "Kab. Dharmasraya",
+    "province": "Sumatera Barat",
+    "phone": "6285159230057"
+  },
+  {
+    "id": "p-345",
+    "city": "Kab. Dharmasraya",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-346",
+    "city": "Kab. Padang Pariaman",
+    "province": "Sumatera Barat",
+    "phone": "6285274640901"
+  },
+  {
+    "id": "p-347",
+    "city": "Kab. Sawahlunto",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-348",
+    "city": "Kab. Sijunjung",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-349",
+    "city": "Kab. South Pesisir",
+    "province": "Sumatera Barat",
+    "phone": "6281234454401"
+  },
+  {
+    "id": "p-350",
+    "city": "Kab. South Pesisir",
+    "province": "Sumatera Barat",
+    "phone": "6281374226354"
+  },
+  {
+    "id": "p-351",
+    "city": "Kab. South Solok",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-352",
+    "city": "Kab. Tanah Datar",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-353",
+    "city": "Kab. West Pasaman",
+    "province": "Sumatera Barat",
+    "phone": "6281363487196"
+  },
+  {
+    "id": "p-354",
+    "city": "Kab. West Pasaman",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-355",
+    "city": "Kab. West Pasaman",
+    "province": "Sumatera Barat",
+    "phone": "6281363414954"
+  },
+  {
+    "id": "p-356",
+    "city": "Kota Bukittinggi",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-357",
+    "city": "Kota Lima Puluh",
+    "province": "Sumatera Barat",
+    "phone": "6285376247810"
+  },
+  {
+    "id": "p-358",
+    "city": "Kota Padang",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-359",
+    "city": "Kota Padang",
+    "province": "Sumatera Barat",
+    "phone": "6285365362354"
+  },
+  {
+    "id": "p-360",
+    "city": "Kota Padang",
+    "province": "Sumatera Barat",
+    "phone": "6285263414354"
+  },
+  {
+    "id": "p-361",
+    "city": "Kota Padang Panjang",
+    "province": "Sumatera Barat",
+    "phone": "6281261923876"
+  },
+  {
+    "id": "p-362",
+    "city": "Kota Payakumbuh",
+    "province": "Sumatera Barat",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-363",
+    "city": "Kota Solok",
+    "province": "Sumatera Barat",
+    "phone": "6285272837334"
+  },
+  {
+    "id": "p-364",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285380322866"
+  },
+  {
+    "id": "p-365",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-366",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282372681164"
+  },
+  {
+    "id": "p-367",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285268723752"
+  },
+  {
+    "id": "p-368",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285290372708"
+  },
+  {
+    "id": "p-369",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6281368521521"
+  },
+  {
+    "id": "p-370",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285268431354"
+  },
+  {
+    "id": "p-371",
+    "city": "Kab. Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285267351618"
+  },
+  {
+    "id": "p-372",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285269273322"
+  },
+  {
+    "id": "p-373",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285357545865"
+  },
+  {
+    "id": "p-374",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-375",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6287792320836"
+  },
+  {
+    "id": "p-376",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285157477767"
+  },
+  {
+    "id": "p-377",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6282281261313"
+  },
+  {
+    "id": "p-378",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6282178991268"
+  },
+  {
+    "id": "p-379",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285267117220"
+  },
+  {
+    "id": "p-380",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285251934303"
+  },
+  {
+    "id": "p-381",
+    "city": "Kab. East Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6282281425633"
+  },
+  {
+    "id": "p-382",
+    "city": "Kab. Lahat",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-383",
+    "city": "Kab. Lahat",
+    "province": "Sumatera Selatan",
+    "phone": "628127822528"
+  },
+  {
+    "id": "p-384",
+    "city": "Kab. Lahat",
+    "province": "Sumatera Selatan",
+    "phone": "6281273202354"
+  },
+  {
+    "id": "p-385",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "6285382475253"
+  },
+  {
+    "id": "p-386",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-387",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "6282281435029"
+  },
+  {
+    "id": "p-388",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "6285384716745"
+  },
+  {
+    "id": "p-389",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "6282282700089"
+  },
+  {
+    "id": "p-390",
+    "city": "Kab. Muara Enim",
+    "province": "Sumatera Selatan",
+    "phone": "6281367761484"
+  },
+  {
+    "id": "p-391",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282307796902"
+  },
+  {
+    "id": "p-392",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-393",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282373238335"
+  },
+  {
+    "id": "p-394",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282281873354"
+  },
+  {
+    "id": "p-395",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285267089796"
+  },
+  {
+    "id": "p-396",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6281368628116"
+  },
+  {
+    "id": "p-397",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282372677410"
+  },
+  {
+    "id": "p-398",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282372829886"
+  },
+  {
+    "id": "p-399",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282266026944"
+  },
+  {
+    "id": "p-400",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6282269564058"
+  },
+  {
+    "id": "p-401",
+    "city": "Kab. Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "phone": "6285366044495"
+  },
+  {
+    "id": "p-402",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "6287873628566"
+  },
+  {
+    "id": "p-403",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-404",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "6285293682577"
+  },
+  {
+    "id": "p-405",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "6285788954230"
+  },
+  {
+    "id": "p-406",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "6282372650049"
+  },
+  {
+    "id": "p-407",
+    "city": "Kab. Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "6281271932354"
+  },
+  {
+    "id": "p-408",
+    "city": "Kab. North Musi Rawas",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-409",
+    "city": "Kab. Ogan Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-410",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-411",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6282252948179"
+  },
+  {
+    "id": "p-412",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "60143743354"
+  },
+  {
+    "id": "p-413",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6282377147433"
+  },
+  {
+    "id": "p-414",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6281336955339"
+  },
+  {
+    "id": "p-415",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6285384716745"
+  },
+  {
+    "id": "p-416",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6282289511793"
+  },
+  {
+    "id": "p-417",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6285254524900"
+  },
+  {
+    "id": "p-418",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6282377311032"
+  },
+  {
+    "id": "p-419",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6285208000354"
+  },
+  {
+    "id": "p-420",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6285839616657"
+  },
+  {
+    "id": "p-421",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6285251934303"
+  },
+  {
+    "id": "p-422",
+    "city": "Kab. Ogan Komering Ilir",
+    "province": "Sumatera Selatan",
+    "phone": "6282282503662"
+  },
+  {
+    "id": "p-423",
+    "city": "Kab. Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-424",
+    "city": "Kab. Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6281273284616"
+  },
+  {
+    "id": "p-425",
+    "city": "Kab. Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6281391558798"
+  },
+  {
+    "id": "p-426",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6281333949020"
+  },
+  {
+    "id": "p-427",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285363650946"
+  },
+  {
+    "id": "p-428",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-429",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6282280321980"
+  },
+  {
+    "id": "p-430",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6281368673789"
+  },
+  {
+    "id": "p-431",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6282186624040"
+  },
+  {
+    "id": "p-432",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6285257702718"
+  },
+  {
+    "id": "p-433",
+    "city": "Kab. South Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "phone": "6281273677099"
+  },
+  {
+    "id": "p-434",
+    "city": "Kota Lubuklinggau",
+    "province": "Sumatera Selatan",
+    "phone": "6282183275135"
+  },
+  {
+    "id": "p-435",
+    "city": "Kota Lubuklinggau",
+    "province": "Sumatera Selatan",
+    "phone": "6281368744470"
+  },
+  {
+    "id": "p-436",
+    "city": "Kota Pagar Alam",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-437",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "6288274401314"
+  },
+  {
+    "id": "p-438",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-439",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "6281379082094"
+  },
+  {
+    "id": "p-440",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "6281274743354"
+  },
+  {
+    "id": "p-441",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "6282307541554"
+  },
+  {
+    "id": "p-442",
+    "city": "Kota Palembang",
+    "province": "Sumatera Selatan",
+    "phone": "628123496678"
+  },
+  {
+    "id": "p-443",
+    "city": "Kota Prabumulih",
+    "province": "Sumatera Selatan",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-444",
+    "city": "Kota Prabumulih",
+    "province": "Sumatera Selatan",
+    "phone": "6281273204480"
+  },
+  {
+    "id": "p-445",
+    "city": "Kota Prabumulih",
+    "province": "Sumatera Selatan",
+    "phone": "6285271399059"
+  },
+  {
+    "id": "p-446",
+    "city": "Kab. Asahan",
+    "province": "Sumatera Utara",
+    "phone": "6282311111490"
+  },
+  {
+    "id": "p-447",
+    "city": "Kab. Asahan",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-448",
+    "city": "Kab. Batu Bara",
+    "province": "Sumatera Utara",
+    "phone": "6283124744023"
+  },
+  {
+    "id": "p-449",
+    "city": "Kab. Central Tapanuli",
+    "province": "Sumatera Utara",
+    "phone": "6281361046099"
+  },
+  {
+    "id": "p-450",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6281370705315"
+  },
+  {
+    "id": "p-451",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-452",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6285262781082"
+  },
+  {
+    "id": "p-453",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6282166556481"
+  },
+  {
+    "id": "p-454",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6285664016186"
+  },
+  {
+    "id": "p-455",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6282387873854"
+  },
+  {
+    "id": "p-456",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6281265549269"
+  },
+  {
+    "id": "p-457",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6285275275177"
+  },
+  {
+    "id": "p-458",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6281370358811"
+  },
+  {
+    "id": "p-459",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6282234450534"
+  },
+  {
+    "id": "p-460",
+    "city": "Kab. Deli Serdang",
+    "province": "Sumatera Utara",
+    "phone": "6282386280313"
+  },
+  {
+    "id": "p-461",
+    "city": "Kab. Karo",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-462",
+    "city": "Kab. Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "6282361081947"
+  },
+  {
+    "id": "p-463",
+    "city": "Kab. Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-464",
+    "city": "Kab. Langkat",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-465",
+    "city": "Kab. Mandailing Natal",
+    "province": "Sumatera Utara",
+    "phone": "6282160021822"
+  },
+  {
+    "id": "p-466",
+    "city": "Kab. North Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "6281362009334"
+  },
+  {
+    "id": "p-467",
+    "city": "Kab. Serdang Bedagai",
+    "province": "Sumatera Utara",
+    "phone": "6282377664844"
+  },
+  {
+    "id": "p-468",
+    "city": "Kab. Serdang Bedagai",
+    "province": "Sumatera Utara",
+    "phone": "628126429523"
+  },
+  {
+    "id": "p-469",
+    "city": "Kab. Serdang Bedagai",
+    "province": "Sumatera Utara",
+    "phone": "6285767210138"
+  },
+  {
+    "id": "p-470",
+    "city": "Kab. Serdang Bedagai",
+    "province": "Sumatera Utara",
+    "phone": "6283862789792"
+  },
+  {
+    "id": "p-471",
+    "city": "Kab. Simalungun",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-472",
+    "city": "Kab. South Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-473",
+    "city": "Kab. South Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "6282277958262"
+  },
+  {
+    "id": "p-474",
+    "city": "Kab. South Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "6285334369076"
+  },
+  {
+    "id": "p-475",
+    "city": "Kab. South Labuhan Batu",
+    "province": "Sumatera Utara",
+    "phone": "6285269107341"
+  },
+  {
+    "id": "p-476",
+    "city": "Kab. West Nias",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-477",
+    "city": "Kota Binjai",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-478",
+    "city": "Kota Binjai",
+    "province": "Sumatera Utara",
+    "phone": "6282114723353"
+  },
+  {
+    "id": "p-479",
+    "city": "Kota Binjai",
+    "province": "Sumatera Utara",
+    "phone": "6285374207773"
+  },
+  {
+    "id": "p-480",
+    "city": "Kota Gunungsitoli",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-481",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-482",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "62617342278"
+  },
+  {
+    "id": "p-483",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "6285261928242"
+  },
+  {
+    "id": "p-484",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "6285297356482"
+  },
+  {
+    "id": "p-485",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "62618463735"
+  },
+  {
+    "id": "p-486",
+    "city": "Kota Medan",
+    "province": "Sumatera Utara",
+    "phone": "62617864519"
+  },
+  {
+    "id": "p-487",
+    "city": "Kota Padang Sidempuan",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-488",
+    "city": "Kota Pematang Siantar",
+    "province": "Sumatera Utara",
+    "phone": "6281263393702"
+  },
+  {
+    "id": "p-489",
+    "city": "Kota Pematang Siantar",
+    "province": "Sumatera Utara",
+    "phone": "628118604544"
+  },
+  {
+    "id": "p-490",
+    "city": "Kota Tanjung Balai",
+    "province": "Sumatera Utara",
+    "phone": "6282268293542"
+  }
+]

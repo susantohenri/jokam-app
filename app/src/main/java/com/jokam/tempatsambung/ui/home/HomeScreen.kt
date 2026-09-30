@@ -50,8 +50,10 @@ import com.jokam.tempatsambung.data.remote.RemoteConfigManager
 import com.jokam.tempatsambung.ui.components.NativeAdCard
 import com.jokam.tempatsambung.ui.components.RewardedAdDialog
 
+import com.jokam.tempatsambung.data.remote.RemoteConstants
+
 fun launchDirectionsIntent(context: Context, lat: Double, lng: Double) {
-    val uri = Uri.parse("https://www.google.com/maps/dir/?api=1&destination=$lat,$lng")
+    val uri = Uri.parse("${RemoteConstants.GOOGLE_MAPS_DIR_BASE_URL}$lat,$lng")
     val intent = Intent(Intent.ACTION_VIEW, uri).apply {
         `package` = "com.google.android.apps.maps"
     }
@@ -62,7 +64,7 @@ fun launchDirectionsIntent(context: Context, lat: Double, lng: Double) {
         try {
             context.startActivity(fallbackIntent)
         } catch (_: Exception) {
-            Toast.makeText(context, "Could not open map", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.error_open_map), Toast.LENGTH_SHORT).show()
         }
     }
 }
@@ -180,6 +182,9 @@ fun HomeScreen(
 
         // City Autocomplete (shown if location is not locked or user wants to search city)
         if (uiState.locationStatus !is LocationStatus.HasLocation) {
+            var dropdownExpanded by remember { mutableStateOf(false) }
+            val hasSuggestions = uiState.citySuggestions.isNotEmpty()
+
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -187,25 +192,59 @@ fun HomeScreen(
             ) {
                 OutlinedTextField(
                     value = uiState.searchQuery,
-                    onValueChange = { viewModel.onSearchQueryChanged(it) },
+                    onValueChange = {
+                        viewModel.onSearchQueryChanged(it)
+                        dropdownExpanded = true
+                    },
                     modifier = Modifier.fillMaxWidth(),
                     placeholder = { Text(stringResource(R.string.search_city_placeholder)) },
                     leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                     singleLine = true
                 )
 
-                if (uiState.citySuggestions.isNotEmpty()) {
+                if (hasSuggestions && dropdownExpanded) {
                     DropdownMenu(
                         expanded = true,
-                        onDismissRequest = { viewModel.onSearchQueryChanged("") },
+                        onDismissRequest = { dropdownExpanded = false },
                         modifier = Modifier.fillMaxWidth(0.9f)
                     ) {
                         uiState.citySuggestions.forEach { suggestion ->
                             DropdownMenuItem(
                                 text = { Text(suggestion) },
-                                onClick = { viewModel.selectCitySuggestion(suggestion) }
+                                onClick = {
+                                    viewModel.selectCitySuggestion(suggestion)
+                                    dropdownExpanded = false
+                                }
                             )
                         }
+                    }
+                }
+            }
+
+            if (uiState.locationStatus is LocationStatus.CitySelected) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 2.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = stringResource(
+                            R.string.active_city_label,
+                            (uiState.locationStatus as LocationStatus.CitySelected).cityName
+                        ),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    androidx.compose.material3.TextButton(
+                        onClick = { viewModel.clearSelectedCity() }
+                    ) {
+                        Text(
+                            text = stringResource(R.string.clear_city),
+                            style = MaterialTheme.typography.labelSmall
+                        )
                     }
                 }
             }
@@ -257,14 +296,14 @@ fun HomeScreen(
 
                     itemsIndexed(
                         items = uiState.favoritePlaces,
-                        key = { _, place -> "fav_${place.id}" }
-                    ) { _, place ->
+                        key = { _, item -> "fav_${item.place.id}" }
+                    ) { _, item ->
                         PlaceItemCard(
-                            place = place,
-                            distanceLabel = place.city.ifBlank { null },
+                            place = item.place,
+                            distanceLabel = item.displayLabel,
                             isFavorite = true,
-                            onToggleFavorite = { viewModel.toggleFavorite(place.id) },
-                            onOpenDirections = { onDirectionsClick(place) }
+                            onToggleFavorite = { viewModel.toggleFavorite(item.place.id) },
+                            onOpenDirections = { onDirectionsClick(item.place) }
                         )
                     }
 
@@ -273,9 +312,26 @@ fun HomeScreen(
                     }
                 }
 
+                // Empty state if both favorites and main are empty
+                if (uiState.favoritePlaces.isEmpty() && uiState.mainPlaces.isEmpty()) {
+                    item(key = "empty_state") {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(32.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                text = stringResource(R.string.empty_places),
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                }
+
                 // Main Places List with Interleaved Native Ads
                 // Policy Section 14: first slot after 3rd item (index == 2), then every 8th item, max 3
-                var adIndex = 0
                 val canShowNativeAds = adsConfig.isAdsEnabled && adsConfig.isNativeEnabled && nativeAds.isNotEmpty()
 
                 itemsIndexed(
@@ -290,11 +346,11 @@ fun HomeScreen(
                         onOpenDirections = { onDirectionsClick(item.place) }
                     )
 
-                    // Interleave native ad
+                    // Interleave native ad deterministically
                     val isNativeSlot = (index == 2 || (index > 2 && (index - 2) % 8 == 0))
-                    if (isNativeSlot && canShowNativeAds && adIndex < 3 && adIndex < nativeAds.size) {
-                        NativeAdCard(nativeAd = nativeAds[adIndex])
-                        adIndex++
+                    val slotIndex = if (index >= 2) (index - 2) / 8 else -1
+                    if (isNativeSlot && canShowNativeAds && slotIndex in 0..2 && slotIndex < nativeAds.size) {
+                        NativeAdCard(nativeAd = nativeAds[slotIndex])
                     }
                 }
             }

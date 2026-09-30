@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -34,15 +35,17 @@ import com.jokam.tempatsambung.data.remote.RemoteConfigManager
 import com.jokam.tempatsambung.ui.components.NativeAdCard
 import com.jokam.tempatsambung.ui.components.RewardedAdDialog
 
+import com.jokam.tempatsambung.data.remote.RemoteConstants
+
 fun launchWhatsApp(context: Context, phone: String) {
     val cleanDigits = phone.filter { it.isDigit() }
     val formatted = if (cleanDigits.startsWith("0")) "62" + cleanDigits.substring(1) else cleanDigits
-    val url = "https://wa.me/$formatted"
+    val url = "${RemoteConstants.WHATSAPP_BASE_URL}$formatted"
     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
     try {
         context.startActivity(intent)
     } catch (_: Exception) {
-        Toast.makeText(context, "Could not open WhatsApp", Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, context.getString(R.string.error_open_whatsapp), Toast.LENGTH_SHORT).show()
     }
 }
 
@@ -110,11 +113,27 @@ fun PengurusScreen(
             }
         } else {
             val canShowNativeAds = adsConfig.isAdsEnabled && adsConfig.isNativeEnabled && nativeAds.isNotEmpty()
-            var adIndex = 0
 
             LazyColumn(
                 modifier = Modifier.fillMaxSize()
             ) {
+                if (uiState.pengurusList.isEmpty()) {
+                    item(key = "empty_pengurus") {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(32.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                text = stringResource(R.string.empty_pengurus),
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                }
+
                 itemsIndexed(
                     items = uiState.pengurusList,
                     key = { _, item -> item.id }
@@ -126,9 +145,9 @@ fun PengurusScreen(
 
                     // Native ad interleaving: slot after 3rd item (index == 2), then every 8th item, max 3
                     val isNativeSlot = (index == 2 || (index > 2 && (index - 2) % 8 == 0))
-                    if (isNativeSlot && canShowNativeAds && adIndex < 3 && adIndex < nativeAds.size) {
-                        NativeAdCard(nativeAd = nativeAds[adIndex])
-                        adIndex++
+                    val slotIndex = if (index >= 2) (index - 2) / 8 else -1
+                    if (isNativeSlot && canShowNativeAds && slotIndex in 0..2 && slotIndex < nativeAds.size) {
+                        NativeAdCard(nativeAd = nativeAds[slotIndex])
                     }
                 }
             }

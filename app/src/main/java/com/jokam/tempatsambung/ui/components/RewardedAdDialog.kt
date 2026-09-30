@@ -33,8 +33,8 @@ fun RewardedAdDialog(
         confirmButton = {
             Button(
                 onClick = {
-                    onDismiss()
                     onWatchAd()
+                    onDismiss()
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = MaterialTheme.colorScheme.primary

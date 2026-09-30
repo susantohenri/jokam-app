@@ -3,6 +3,7 @@ package com.jokam.tempatsambung.ui.home
 import java.util.Locale
 import kotlin.math.atan2
 import kotlin.math.cos
+import kotlin.math.roundToInt
 import kotlin.math.sin
 import kotlin.math.sqrt
 
@@ -21,10 +22,12 @@ object LocationUtils {
 
     fun formatDistance(meters: Double): String {
         return if (meters < 1000.0) {
-            "${meters.toInt()} m"
+            "${meters.roundToInt()} m"
         } else {
             val km = meters / 1000.0
-            String.format(Locale.getDefault(), "%.1f km", km)
+            val appLocales = androidx.appcompat.app.AppCompatDelegate.getApplicationLocales()
+            val locale = if (!appLocales.isEmpty) appLocales[0] ?: Locale.getDefault() else Locale.getDefault()
+            String.format(locale, "%.1f km", km)
         }
     }
 }

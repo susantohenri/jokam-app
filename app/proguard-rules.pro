@@ -10,9 +10,6 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,allowobfuscation,allowshrinking class * {
-    <fields>;
-}
 
 -keepclassmembers class * {
     @kotlinx.serialization.SerialName <fields>;

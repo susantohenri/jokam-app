@@ -24,6 +24,9 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.Spacer
+
 @Composable
 fun BannerAdSection(
     adUnitId: String,
@@ -36,10 +39,13 @@ fun BannerAdSection(
     val configuration = LocalConfiguration.current
     val screenWidth = configuration.screenWidthDp
 
-    val adView = remember(adUnitId) {
+    val adSize = remember(adUnitId, screenWidth) {
+        AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, screenWidth)
+    }
+
+    val adView = remember(adUnitId, screenWidth) {
         AdView(context).apply {
             this.adUnitId = adUnitId
-            val adSize = AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, screenWidth)
             setAdSize(adSize)
             loadAd(AdRequest.Builder().build())
         }
@@ -62,9 +68,7 @@ fun BannerAdSection(
     }
 
     Column(
-        modifier = modifier
-            .fillMaxWidth()
-            .padding(top = 8.dp)
+        modifier = modifier.fillMaxWidth()
     ) {
         HorizontalDivider(
             color = MaterialTheme.colorScheme.outline.copy(alpha = 0.2f),
@@ -73,7 +77,7 @@ fun BannerAdSection(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 50.dp)
+                .height(adSize.height.dp)
                 .background(MaterialTheme.colorScheme.surface),
             contentAlignment = Alignment.Center
         ) {
@@ -82,5 +86,10 @@ fun BannerAdSection(
                 modifier = Modifier.fillMaxWidth()
             )
         }
+        HorizontalDivider(
+            color = MaterialTheme.colorScheme.outline.copy(alpha = 0.2f),
+            thickness = 1.dp
+        )
+        Spacer(modifier = Modifier.height(8.dp))
     }
 }

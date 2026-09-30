@@ -17,7 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TempatSambung"
         android:localeConfig="@xml/locales_config"
-        android:usesCleartextTraffic="false">
+        android:usesCleartextTraffic="false"
+        android:enableOnBackInvokedCallback="true">
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

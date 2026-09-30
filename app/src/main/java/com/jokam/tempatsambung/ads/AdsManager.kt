@@ -107,6 +107,8 @@ class AdsManager(
             return
         }
 
+        destroyNativeAds()
+
         val loadedAds = mutableListOf<NativeAd>()
         val adLoader = AdLoader.Builder(context, adUnitId)
             .forNativeAd { nativeAd ->

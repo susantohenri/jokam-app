@@ -42,10 +42,6 @@ class WallpaperViewModel(
     private val _uiState = MutableStateFlow(WallpaperUiState(isLoading = true))
     val uiState: StateFlow<WallpaperUiState> = _uiState.asStateFlow()
 
-    init {
-        loadWallpapers()
-    }
-
     fun loadWallpapers(forceRefresh: Boolean = false) {
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoading = true, errorMessage = null)
@@ -147,6 +143,12 @@ class WallpaperViewModel(
                             FileOutputStream(file).use { out ->
                                 bitmap.compress(Bitmap.CompressFormat.JPEG, 95, out)
                             }
+                            android.media.MediaScannerConnection.scanFile(
+                                context,
+                                arrayOf(file.absolutePath),
+                                arrayOf("image/jpeg"),
+                                null
+                            )
                             true
                         }
 

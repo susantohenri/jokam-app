@@ -5,9 +5,9 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Place(
-    val id: String,
-    val name: String,
-    val address: String,
+    val id: String = "",
+    val name: String = "",
+    val address: String = "",
     val city: String = "",
     val province: String = "",
     val lat: Double = 0.0,
@@ -17,24 +17,22 @@ data class Place(
 
 @Serializable
 data class Pengurus(
-    val id: String,
-    val city: String,
-    val province: String,
-    val phone: String
+    val id: String = "",
+    val city: String = "",
+    val province: String = "",
+    val phone: String = ""
 )
 
 @Serializable
 data class WallpaperItem(
-    val id: String,
-    @SerialName("thumb_url") val thumbUrl: String,
-    @SerialName("full_url") val fullUrl: String
+    val id: String = "",
+    @SerialName("thumb_url") val thumbUrl: String = "",
+    @SerialName("full_url") val fullUrl: String = ""
 )
 
 @Serializable
 data class AdsConfig(
-    val appOpenAdUnitId: String? = null,
     val bannerAdUnitId: String? = null,
-    val interstitialAdUnitId: String? = null,
     val rewardedAdUnitId: String? = null,
     val nativeAdUnitId: String? = null,
     val isAdsEnabled: Boolean = false,

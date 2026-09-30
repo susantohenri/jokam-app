@@ -31,50 +31,52 @@ fun NativeAdCard(
             factory = { context ->
                 val view = LayoutInflater.from(context).inflate(R.layout.layout_native_ad, null, false) as NativeAdView
 
-                val headlineView = view.findViewById<TextView>(R.id.ad_headline)
-                val bodyView = view.findViewById<TextView>(R.id.ad_body)
-                val iconView = view.findViewById<ImageView>(R.id.ad_app_icon)
-                val mediaView = view.findViewById<MediaView>(R.id.ad_media)
-                val callToActionView = view.findViewById<Button>(R.id.ad_call_to_action)
+                view.headlineView = view.findViewById<TextView>(R.id.ad_headline)
+                view.bodyView = view.findViewById<TextView>(R.id.ad_body)
+                view.iconView = view.findViewById<ImageView>(R.id.ad_app_icon)
+                view.mediaView = view.findViewById<MediaView>(R.id.ad_media)
+                view.callToActionView = view.findViewById<Button>(R.id.ad_call_to_action)
 
-                view.headlineView = headlineView
-                view.bodyView = bodyView
-                view.iconView = iconView
-                view.mediaView = mediaView
-                view.callToActionView = callToActionView
+                view
+            },
+            update = { view ->
+                val headlineView = view.headlineView as? TextView
+                val bodyView = view.bodyView as? TextView
+                val iconView = view.iconView as? ImageView
+                val mediaView = view.mediaView as? MediaView
+                val callToActionView = view.callToActionView as? Button
 
-                headlineView.text = nativeAd.headline ?: ""
+                headlineView?.text = nativeAd.headline ?: ""
 
                 if (nativeAd.body == null) {
-                    bodyView.visibility = View.GONE
+                    bodyView?.visibility = View.GONE
                 } else {
-                    bodyView.visibility = View.VISIBLE
-                    bodyView.text = nativeAd.body
+                    bodyView?.visibility = View.VISIBLE
+                    bodyView?.text = nativeAd.body
                 }
 
                 if (nativeAd.icon == null) {
-                    iconView.visibility = View.GONE
+                    iconView?.visibility = View.GONE
                 } else {
-                    iconView.visibility = View.VISIBLE
-                    iconView.setImageDrawable(nativeAd.icon?.drawable)
+                    iconView?.visibility = View.VISIBLE
+                    iconView?.setImageDrawable(nativeAd.icon?.drawable)
                 }
 
-                if (nativeAd.mediaContent != null && nativeAd.mediaContent?.hasVideoContent() == true) {
-                    mediaView.visibility = View.VISIBLE
-                    mediaView.mediaContent = nativeAd.mediaContent
+                if (nativeAd.mediaContent != null) {
+                    mediaView?.visibility = View.VISIBLE
+                    mediaView?.mediaContent = nativeAd.mediaContent
                 } else {
-                    mediaView.visibility = View.GONE
+                    mediaView?.visibility = View.GONE
                 }
 
                 if (nativeAd.callToAction == null) {
-                    callToActionView.visibility = View.GONE
+                    callToActionView?.visibility = View.GONE
                 } else {
-                    callToActionView.visibility = View.VISIBLE
-                    callToActionView.text = nativeAd.callToAction
+                    callToActionView?.visibility = View.VISIBLE
+                    callToActionView?.text = nativeAd.callToAction
                 }
 
                 view.setNativeAd(nativeAd)
-                view
             },
             modifier = Modifier.fillMaxWidth()
         )

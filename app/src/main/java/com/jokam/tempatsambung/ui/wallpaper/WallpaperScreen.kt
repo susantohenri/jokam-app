@@ -102,7 +102,7 @@ fun WallpaperScreen(
                 )
             }
         } else {
-            Toast.makeText(context, "Storage permission is required to save wallpaper", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.storage_permission_required), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -175,6 +175,7 @@ fun WallpaperScreen(
                                 model = ImageRequest.Builder(context)
                                     .data(item.thumbUrl)
                                     .crossfade(true)
+                                    .placeholder(R.drawable.bg_native_ad)
                                     .build(),
                                 contentDescription = null,
                                 contentScale = ContentScale.Crop,
@@ -214,7 +215,7 @@ fun WallpaperScreen(
                     ) {
                         Icon(
                             imageVector = Icons.Default.Close,
-                            contentDescription = "Close",
+                            contentDescription = stringResource(R.string.close),
                             tint = Color.White
                         )
                     }

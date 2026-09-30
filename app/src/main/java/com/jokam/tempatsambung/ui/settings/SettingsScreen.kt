@@ -39,6 +39,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -120,11 +121,11 @@ fun SettingsScreen(
 
                 SingleChoiceSegmentedButtonRow(modifier = Modifier.fillMaxWidth()) {
                     val options = listOf(
-                        Pair(stringResource(R.string.language_id), "in"),
+                        Pair(stringResource(R.string.language_id), "id"),
                         Pair(stringResource(R.string.language_en), "en")
                     )
                     options.forEachIndexed { index, (label, tag) ->
-                        val selected = if (tag == "in") isIndonesian else !isIndonesian
+                        val selected = if (tag == "id") isIndonesian else !isIndonesian
                         SegmentedButton(
                             shape = SegmentedButtonDefaults.itemShape(index = index, count = options.size),
                             onClick = {
@@ -207,14 +208,37 @@ fun SettingsScreen(
             elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
         ) {
             Column(modifier = Modifier.padding(vertical = 4.dp)) {
-                // About Row
+                // About Row: displays app name and Version from package info
+                val packageInfo = remember(context) {
+                    try {
+                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+                            context.packageManager.getPackageInfo(
+                                context.packageName,
+                                android.content.pm.PackageManager.PackageInfoFlags.of(0)
+                            )
+                        } else {
+                            @Suppress("DEPRECATION")
+                            context.packageManager.getPackageInfo(context.packageName, 0)
+                        }
+                    } catch (_: Exception) {
+                        null
+                    }
+                }
+                val versionName = packageInfo?.versionName ?: BuildConfig.VERSION_NAME
+                val versionCode = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
+                    packageInfo?.longVersionCode?.toInt() ?: BuildConfig.VERSION_CODE
+                } else {
+                    @Suppress("DEPRECATION")
+                    packageInfo?.versionCode ?: BuildConfig.VERSION_CODE
+                }
+
                 SettingsRow(
                     icon = Icons.Default.Info,
-                    title = stringResource(R.string.settings_about),
+                    title = stringResource(R.string.app_name),
                     subtitle = stringResource(
                         R.string.app_version_format,
-                        BuildConfig.VERSION_NAME,
-                        BuildConfig.VERSION_CODE
+                        versionName,
+                        versionCode
                     ),
                     onClick = null
                 )
@@ -240,8 +264,8 @@ fun SettingsScreen(
                         title = stringResource(R.string.ad_privacy_settings),
                         subtitle = null,
                         onClick = {
-                            if (context is Activity) {
-                                consentManager.showPrivacyOptionsForm(context)
+                            context.findActivity()?.let { activity ->
+                                consentManager.showPrivacyOptionsForm(activity)
                             }
                         }
                     )
@@ -249,6 +273,12 @@ fun SettingsScreen(
             }
         }
     }
+}
+
+private tailrec fun Context.findActivity(): Activity? = when (this) {
+    is Activity -> this
+    is android.content.ContextWrapper -> baseContext.findActivity()
+    else -> null
 }
 
 @Composable

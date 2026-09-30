@@ -38,8 +38,8 @@ class PengurusViewModel(
         _locationStatus
     ) { loading, error, pengurus, places, locStatus ->
 
-        // Calculate centroids per city
-        val cityCentroids = places.groupBy { it.city.lowercase() }.mapValues { entry ->
+        // Calculate centroids per city (ignoring empty city names)
+        val cityCentroids = places.filter { it.city.isNotBlank() }.groupBy { it.city.lowercase() }.mapValues { entry ->
             val lats = entry.value.map { it.lat }
             val lngs = entry.value.map { it.lng }
             Pair(lats.average(), lngs.average())
@@ -55,7 +55,8 @@ class PengurusViewModel(
                         } else {
                             Double.MAX_VALUE
                         }
-                    }.thenBy { it.province }.thenBy { it.city }
+                    }.thenBy(String.CASE_INSENSITIVE_ORDER) { it.province }
+                        .thenBy(String.CASE_INSENSITIVE_ORDER) { it.city }
                 )
             }
             is LocationStatus.CitySelected -> {
@@ -67,12 +68,16 @@ class PengurusViewModel(
                         } else {
                             Double.MAX_VALUE
                         }
-                    }.thenBy { it.province }.thenBy { it.city }
+                    }.thenBy(String.CASE_INSENSITIVE_ORDER) { it.province }
+                        .thenBy(String.CASE_INSENSITIVE_ORDER) { it.city }
                 )
             }
             else -> {
-                // Alphabetical by province then city
-                pengurus.sortedWith(compareBy({ it.province }, { it.city }))
+                // Alphabetical by province then city (case-insensitive)
+                pengurus.sortedWith(
+                    compareBy<Pengurus, String>(String.CASE_INSENSITIVE_ORDER) { it.province }
+                        .thenBy(String.CASE_INSENSITIVE_ORDER) { it.city }
+                )
             }
         }
 
@@ -86,10 +91,6 @@ class PengurusViewModel(
         started = SharingStarted.WhileSubscribed(5000),
         initialValue = PengurusUiState(isLoading = true)
     )
-
-    init {
-        loadData()
-    }
 
     fun updateLocationStatus(status: LocationStatus) {
         _locationStatus.value = status

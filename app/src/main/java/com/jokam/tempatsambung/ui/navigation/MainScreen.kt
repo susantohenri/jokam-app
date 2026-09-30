@@ -24,6 +24,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import com.google.android.gms.ads.nativead.NativeAd
 import com.jokam.tempatsambung.R
 import com.jokam.tempatsambung.ads.ConsentManager
@@ -37,6 +38,9 @@ import com.jokam.tempatsambung.ui.pengurus.PengurusViewModel
 import com.jokam.tempatsambung.ui.settings.SettingsScreen
 import com.jokam.tempatsambung.ui.wallpaper.WallpaperScreen
 import com.jokam.tempatsambung.ui.wallpaper.WallpaperViewModel
+
+import androidx.activity.compose.BackHandler
+import androidx.compose.runtime.LaunchedEffect
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -55,7 +59,32 @@ fun MainScreen(
     val adsConfig by RemoteConfigManager.adsConfig.collectAsState()
     val canRequestAds by consentManager.canRequestAdsState.collectAsState()
 
-    val showBanner = adsConfig.isAdsEnabled &&
+    val homeUiState by homeViewModel.uiState.collectAsState()
+    val wallpaperUiState by wallpaperViewModel.uiState.collectAsState()
+
+    // Sync location status from Home to Pengurus tab
+    LaunchedEffect(homeUiState.locationStatus) {
+        pengurusViewModel.updateLocationStatus(homeUiState.locationStatus)
+    }
+
+    // Lazy load data per screen when first viewed
+    LaunchedEffect(selectedScreen) {
+        when (selectedScreen) {
+            Screen.Pengurus.route -> pengurusViewModel.loadData()
+            Screen.Wallpaper.route -> wallpaperViewModel.loadWallpapers()
+        }
+    }
+
+    // Predictive back: back gesture navigates back to Home tab if on another tab
+    BackHandler(enabled = selectedScreen != Screen.Home.route) {
+        selectedScreen = Screen.Home.route
+    }
+
+    val isWallpaperFullscreen = selectedScreen == Screen.Wallpaper.route &&
+            wallpaperUiState.selectedWallpaper != null
+
+    val showBanner = !isWallpaperFullscreen &&
+            adsConfig.isAdsEnabled &&
             adsConfig.isBannerEnabled &&
             canRequestAds &&
             selectedScreen != Screen.Settings.route &&
@@ -63,42 +92,46 @@ fun MainScreen(
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = {
-                    Text(
-                        text = stringResource(R.string.app_name),
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onPrimary
+            if (!isWallpaperFullscreen) {
+                TopAppBar(
+                    title = {
+                        Text(
+                            text = stringResource(R.string.app_name),
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.onPrimary
+                        )
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(
+                        containerColor = MaterialTheme.colorScheme.primary
                     )
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.primary
                 )
-            )
+            }
         },
         bottomBar = {
-            Column(modifier = Modifier.fillMaxWidth()) {
-                // Anchored Adaptive Banner Ad directly above BottomNavigation
-                if (showBanner) {
-                    BannerAdSection(adUnitId = adsConfig.bannerAdUnitId!!)
-                }
+            if (!isWallpaperFullscreen) {
+                Column(modifier = Modifier.fillMaxWidth()) {
+                    // Anchored Adaptive Banner Ad directly above BottomNavigation
+                    if (showBanner) {
+                        BannerAdSection(adUnitId = adsConfig.bannerAdUnitId!!)
+                    }
 
-                NavigationBar(
-                    containerColor = MaterialTheme.colorScheme.surface,
-                    contentColor = MaterialTheme.colorScheme.onSurface
-                ) {
-                    Screen.bottomNavItems.forEach { screen ->
-                        NavigationBarItem(
-                            icon = { Icon(screen.icon, contentDescription = stringResource(screen.titleRes)) },
-                            label = { Text(stringResource(screen.titleRes)) },
-                            selected = selectedScreen == screen.route,
-                            onClick = { selectedScreen = screen.route },
-                            colors = NavigationBarItemDefaults.colors(
-                                selectedIconColor = MaterialTheme.colorScheme.primary,
-                                selectedTextColor = MaterialTheme.colorScheme.primary,
-                                indicatorColor = MaterialTheme.colorScheme.primaryContainer
+                    NavigationBar(
+                        containerColor = MaterialTheme.colorScheme.surface,
+                        contentColor = MaterialTheme.colorScheme.onSurface
+                    ) {
+                        Screen.bottomNavItems.forEach { screen ->
+                            NavigationBarItem(
+                                icon = { Icon(screen.icon, contentDescription = stringResource(screen.titleRes)) },
+                                label = { Text(stringResource(screen.titleRes)) },
+                                selected = selectedScreen == screen.route,
+                                onClick = { selectedScreen = screen.route },
+                                colors = NavigationBarItemDefaults.colors(
+                                    selectedIconColor = MaterialTheme.colorScheme.primary,
+                                    selectedTextColor = MaterialTheme.colorScheme.primary,
+                                    indicatorColor = MaterialTheme.colorScheme.primaryContainer
+                                )
                             )
-                        )
+                        }
                     }
                 }
             }
@@ -107,7 +140,7 @@ fun MainScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding)
+                .padding(if (isWallpaperFullscreen) androidx.compose.foundation.layout.PaddingValues(0.dp) else innerPadding)
         ) {
             when (selectedScreen) {
                 Screen.Home.route -> {

@@ -63,4 +63,12 @@
     <string name="rewarded_route_msg">Tonton iklan singkat untuk membuka rute</string>
     <string name="rewarded_contact_msg">Tonton iklan singkat untuk menghubungi pengurus</string>
     <string name="rewarded_wallpaper_msg">Tonton iklan singkat untuk memakai wallpaper ini</string>
+
+    <!-- Additional UI & errors -->
+    <string name="error_open_map">Tidak dapat membuka peta</string>
+    <string name="error_open_whatsapp">Tidak dapat membuka WhatsApp</string>
+    <string name="storage_permission_required">Izin penyimpanan diperlukan untuk menyimpan wallpaper</string>
+    <string name="close">Tutup</string>
+    <string name="active_city_label">Menampilkan terdekat ke %1$s</string>
+    <string name="clear_city">Hapus</string>
 </resources>

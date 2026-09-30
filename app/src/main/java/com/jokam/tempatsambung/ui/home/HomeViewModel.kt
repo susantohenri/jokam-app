@@ -19,6 +19,7 @@ sealed interface LocationStatus {
     data class HasLocation(val lat: Double, val lng: Double) : LocationStatus
     object PermissionNeeded : LocationStatus
     object GpsDisabled : LocationStatus
+    object LocationUnavailable : LocationStatus
     data class CitySelected(val cityName: String, val centroidLat: Double, val centroidLng: Double) : LocationStatus
 }
 
@@ -26,7 +27,7 @@ data class HomeUiState(
     val isLoading: Boolean = false,
     val errorMessage: String? = null,
     val locationStatus: LocationStatus = LocationStatus.Checking,
-    val favoritePlaces: List<Place> = emptyList(),
+    val favoritePlaces: List<PlaceWithDistance> = emptyList(),
     val mainPlaces: List<PlaceWithDistance> = emptyList(),
     val citySuggestions: List<String> = emptyList(),
     val searchQuery: String = ""
@@ -72,11 +73,24 @@ class HomeViewModel(
         _searchQuery
     ) { (loading, error, places), locStatus, favIds, query ->
 
+        val nonFavPlaces = places.filterNot { favIds.contains(it.id) }
+
+        // Favorite places: deterministic sorting by name, distance calculated if GPS available
         val favPlaces = favIds.mapNotNull { id ->
             places.find { it.id == id }
+        }.sortedBy { it.name.lowercase() }.map { place ->
+            when (locStatus) {
+                is LocationStatus.HasLocation -> {
+                    val dist = LocationUtils.calculateDistanceMeters(
+                        locStatus.lat, locStatus.lng, place.lat, place.lng
+                    )
+                    PlaceWithDistance(place, dist, LocationUtils.formatDistance(dist))
+                }
+                else -> {
+                    PlaceWithDistance(place, null, place.city.ifBlank { null })
+                }
+            }
         }
-
-        val nonFavPlaces = places.filterNot { favIds.contains(it.id) }
 
         val computedMainList = when (locStatus) {
             is LocationStatus.HasLocation -> {
@@ -88,18 +102,20 @@ class HomeViewModel(
                 }.sortedBy { it.distanceMeters ?: Double.MAX_VALUE }
             }
             is LocationStatus.CitySelected -> {
+                // In city mode: sort ALL non-fav places by distance from centroid, display city name (do NOT show km)
                 nonFavPlaces
-                    .filter { it.city.equals(locStatus.cityName, ignoreCase = true) }
                     .map { place ->
                         val dist = LocationUtils.calculateDistanceMeters(
                             locStatus.centroidLat, locStatus.centroidLng, place.lat, place.lng
                         )
-                        PlaceWithDistance(place, dist, place.city)
+                        PlaceWithDistance(place, dist, place.city.ifBlank { null })
                     }.sortedBy { it.distanceMeters ?: Double.MAX_VALUE }
             }
             else -> {
                 // When location is unavailable and no city selected yet, show alphabetical by name
-                nonFavPlaces.map { PlaceWithDistance(it, null, it.city.ifEmpty { null }) }
+                nonFavPlaces
+                    .sortedBy { it.name.lowercase() }
+                    .map { PlaceWithDistance(it, null, it.city.ifBlank { null }) }
             }
         }
 
@@ -107,7 +123,9 @@ class HomeViewModel(
         val suggestions = if (query.isNotBlank()) {
             places
                 .filter { it.city.isNotBlank() }
-                .map { "${it.city}, ${it.province}".trim().removeSuffix(",") }
+                .map {
+                    if (it.province.isNotBlank()) "${it.city}, ${it.province}" else it.city
+                }
                 .distinct()
                 .filter { it.contains(query, ignoreCase = true) }
                 .take(10)
@@ -161,6 +179,10 @@ class HomeViewModel(
         _locationStatus.value = LocationStatus.GpsDisabled
     }
 
+    fun onLocationUnavailable() {
+        _locationStatus.value = LocationStatus.LocationUnavailable
+    }
+
     fun onSearchQueryChanged(query: String) {
         _searchQuery.value = query
     }
@@ -172,6 +194,11 @@ class HomeViewModel(
         val centroidLng = if (cityPlaces.isNotEmpty()) cityPlaces.map { it.lng }.average() else 0.0
 
         _locationStatus.value = LocationStatus.CitySelected(cityName, centroidLat, centroidLng)
+        _searchQuery.value = ""
+    }
+
+    fun clearSelectedCity() {
+        _locationStatus.value = LocationStatus.LocationUnavailable
         _searchQuery.value = ""
     }
 

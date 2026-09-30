@@ -183,7 +183,8 @@ class MainActivity : AppCompatActivity() {
         lifecycleScope.launch {
             delay(8000)
             if (homeViewModel.uiState.value.locationStatus is LocationStatus.Checking) {
-                homeViewModel.onLocationPermissionDenied()
+                homeViewModel.onLocationUnavailable()
+                pengurusViewModel.updateLocationStatus(LocationStatus.LocationUnavailable)
             }
         }
 
@@ -203,14 +204,19 @@ class MainActivity : AppCompatActivity() {
                                 LocationStatus.HasLocation(lastLoc.latitude, lastLoc.longitude)
                             )
                         } else {
-                            homeViewModel.onLocationPermissionDenied()
+                            homeViewModel.onLocationUnavailable()
+                            pengurusViewModel.updateLocationStatus(LocationStatus.LocationUnavailable)
                         }
+                    }.addOnFailureListener {
+                        homeViewModel.onLocationUnavailable()
+                        pengurusViewModel.updateLocationStatus(LocationStatus.LocationUnavailable)
                     }
                 }
             }
             .addOnFailureListener { e ->
                 Log.w(tag, "Could not obtain device location", e)
-                homeViewModel.onLocationPermissionDenied()
+                homeViewModel.onLocationUnavailable()
+                pengurusViewModel.updateLocationStatus(LocationStatus.LocationUnavailable)
             }
     }
 

@@ -63,4 +63,12 @@
     <string name="rewarded_route_msg">Watch a short ad to open the route</string>
     <string name="rewarded_contact_msg">Watch a short ad to contact the coordinator</string>
     <string name="rewarded_wallpaper_msg">Watch a short ad to use this wallpaper</string>
+
+    <!-- Additional UI & errors -->
+    <string name="error_open_map">Could not open map</string>
+    <string name="error_open_whatsapp">Could not open WhatsApp</string>
+    <string name="storage_permission_required">Storage permission is required to save wallpaper</string>
+    <string name="close">Close</string>
+    <string name="active_city_label">Showing nearest to %1$s</string>
+    <string name="clear_city">Clear</string>
 </resources>

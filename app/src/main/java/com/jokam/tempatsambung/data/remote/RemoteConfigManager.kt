@@ -23,17 +23,18 @@ object RemoteConfigManager {
     }
 
     private val httpClient = OkHttpClient.Builder()
+        .callTimeout(5, TimeUnit.SECONDS)
         .connectTimeout(5, TimeUnit.SECONDS)
         .readTimeout(5, TimeUnit.SECONDS)
         .build()
 
-    // Default configuration (Debug: fallback to test IDs; Release: no ads)
+    // Default configuration (Debug: fallback to test IDs with isAdsEnabled=true; Release: no ads)
     private val defaultConfig = if (BuildConfig.DEBUG) {
         AdsConfig(
-            bannerAdUnitId = BuildConfig.TEST_BANNER_AD_UNIT_ID.ifEmpty { "ca-app-pub-3940256099942544/6300978111" },
-            rewardedAdUnitId = BuildConfig.TEST_REWARDED_AD_UNIT_ID.ifEmpty { "ca-app-pub-3940256099942544/5224354917" },
-            nativeAdUnitId = BuildConfig.TEST_NATIVE_AD_UNIT_ID.ifEmpty { "ca-app-pub-3940256099942544/2247696110" },
-            isAdsEnabled = false,
+            bannerAdUnitId = BuildConfig.TEST_BANNER_AD_UNIT_ID,
+            rewardedAdUnitId = BuildConfig.TEST_REWARDED_AD_UNIT_ID,
+            nativeAdUnitId = BuildConfig.TEST_NATIVE_AD_UNIT_ID,
+            isAdsEnabled = true,
             isBannerEnabled = true,
             isNativeEnabled = true,
             isRewardedRouteEnabled = true,
@@ -49,10 +50,10 @@ object RemoteConfigManager {
     private val _adsConfig = MutableStateFlow(defaultConfig)
     val adsConfig: StateFlow<AdsConfig> = _adsConfig.asStateFlow()
 
-    private var hasFetched = false
+    private val hasFetched = java.util.concurrent.atomic.AtomicBoolean(false)
 
     suspend fun fetchAdsConfig() {
-        if (hasFetched) return
+        if (!hasFetched.compareAndSet(false, true)) return
         withContext(Dispatchers.IO) {
             try {
                 val request = Request.Builder()
@@ -64,7 +65,6 @@ object RemoteConfigManager {
                         if (!body.isNullOrBlank()) {
                             val parsed = json.decodeFromString<AdsConfig>(body)
                             _adsConfig.value = parsed
-                            hasFetched = true
                             Log.d(TAG, "AdsConfig fetched successfully: isAdsEnabled=${parsed.isAdsEnabled}")
                         }
                     } else {

@@ -14,12 +14,12 @@ android {
         minSdk = 26
         targetSdk = 36
         versionCode = 1
-        versionName = "1.0.0"
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
-        resourceConfigurations += listOf("en", "in")
+        resourceConfigurations += listOf("en", "id", "in")
     }
 
     buildTypes {

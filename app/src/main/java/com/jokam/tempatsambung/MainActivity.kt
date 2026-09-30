@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         val fineGranted = permissions[Manifest.permission.ACCESS_FINE_LOCATION] == true
         val coarseGranted = permissions[Manifest.permission.ACCESS_COARSE_LOCATION] == true
         if (fineGranted || coarseGranted) {
-            checkGpsAndRequestLocation()
+            checkGpsAndRequestLocation(resolveIfDisabled = false)
         } else {
             homeViewModel.onLocationPermissionDenied()
         }
@@ -86,9 +86,24 @@ class MainActivity : AppCompatActivity() {
         dataRepository = DataRepository()
         preferencesRepository = PreferencesRepository(this)
 
-        homeViewModel = HomeViewModel(dataRepository, preferencesRepository)
-        pengurusViewModel = PengurusViewModel(dataRepository)
-        wallpaperViewModel = WallpaperViewModel(dataRepository)
+        val factory = object : androidx.lifecycle.ViewModelProvider.Factory {
+            @Suppress("UNCHECKED_CAST")
+            override fun <T : androidx.lifecycle.ViewModel> create(modelClass: Class<T>): T {
+                return when {
+                    modelClass.isAssignableFrom(HomeViewModel::class.java) ->
+                        HomeViewModel(dataRepository, preferencesRepository) as T
+                    modelClass.isAssignableFrom(PengurusViewModel::class.java) ->
+                        PengurusViewModel(dataRepository) as T
+                    modelClass.isAssignableFrom(WallpaperViewModel::class.java) ->
+                        WallpaperViewModel(dataRepository) as T
+                    else -> throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
+                }
+            }
+        }
+
+        homeViewModel = androidx.lifecycle.ViewModelProvider(this, factory)[HomeViewModel::class.java]
+        pengurusViewModel = androidx.lifecycle.ViewModelProvider(this, factory)[PengurusViewModel::class.java]
+        wallpaperViewModel = androidx.lifecycle.ViewModelProvider(this, factory)[WallpaperViewModel::class.java]
 
         // Request remote config & UMP Consent
         lifecycleScope.launch {
@@ -99,7 +114,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Check initial location state
+        // Check initial location state without launching dialog automatically
         checkLocationPermission()
 
         setContent {
@@ -122,7 +137,7 @@ class MainActivity : AppCompatActivity() {
                         )
                     },
                     onRequestEnableGps = {
-                        checkGpsAndRequestLocation()
+                        checkGpsAndRequestLocation(resolveIfDisabled = true)
                     },
                     onShowRewardedAd = { onEarned ->
                         adsManager.showRewardedAd(this@MainActivity, onEarned)
@@ -142,13 +157,13 @@ class MainActivity : AppCompatActivity() {
         ) == PackageManager.PERMISSION_GRANTED
 
         if (fineGranted || coarseGranted) {
-            checkGpsAndRequestLocation()
+            checkGpsAndRequestLocation(resolveIfDisabled = false)
         } else {
             homeViewModel.onLocationPermissionDenied()
         }
     }
 
-    private fun checkGpsAndRequestLocation() {
+    private fun checkGpsAndRequestLocation(resolveIfDisabled: Boolean = false) {
         val locationRequest = LocationRequest.Builder(
             Priority.PRIORITY_BALANCED_POWER_ACCURACY, 10000
         ).build()
@@ -163,7 +178,7 @@ class MainActivity : AppCompatActivity() {
                 fetchDeviceLocation()
             }
             .addOnFailureListener { exception ->
-                if (exception is ResolvableApiException) {
+                if (resolveIfDisabled && exception is ResolvableApiException) {
                     try {
                         val intentSenderRequest = IntentSenderRequest.Builder(exception.resolution).build()
                         gpsResolutionLauncher.launch(intentSenderRequest)

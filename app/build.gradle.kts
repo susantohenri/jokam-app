@@ -29,6 +29,7 @@ android {
             buildConfigField("String", "TEST_NATIVE_AD_UNIT_ID", "\"ca-app-pub-3940256099942544/2247696110\"")
         }
         release {
+            signingConfig = signingConfigs.getByName("debug")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(

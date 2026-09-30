@@ -32,12 +32,11 @@ fun BannerAdSection(
     adUnitId: String,
     modifier: Modifier = Modifier
 ) {
-    if (adUnitId.isBlank()) return
-
     val context = LocalContext.current
     val lifecycleOwner = LocalLifecycleOwner.current
     val configuration = LocalConfiguration.current
     val screenWidth = configuration.screenWidthDp
+    if (adUnitId.isBlank() || screenWidth <= 0) return
 
     val adSize = remember(adUnitId, screenWidth) {
         AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, screenWidth)

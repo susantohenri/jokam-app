@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tempat Sambung</string>
+    <string name="app_tagline">Temukan tempat sambung terdekat, di mana pun kamu berada</string>
+
+    <!-- Navigation tabs -->
+    <string name="tab_home">Beranda</string>
+    <string name="tab_pengurus">Pengurus</string>
+    <string name="tab_wallpaper">Wallpaper</string>
+    <string name="tab_settings">Pengaturan</string>
+
+    <!-- Home screen -->
+    <string name="allow_location">Izinkan Lokasi</string>
+    <string name="enable_location">Aktifkan Lokasi</string>
+    <string name="location_rationale">Tempat Sambung memerlukan izin lokasi untuk menampilkan tempat sambung terdekat di sekitarmu.</string>
+    <string name="location_off_rationale">Lokasi perangkat dinonaktifkan. Silakan aktifkan layanan lokasi untuk mencari tempat terdekat.</string>
+    <string name="search_city_placeholder">Cari kota atau kabupaten…</string>
+    <string name="favorites_title">Favorit</string>
+    <string name="get_directions">Buka Tempat Sambung</string>
+    <string name="copy_address">Salin alamat</string>
+    <string name="address_copied">Alamat berhasil disalin</string>
+    <string name="retry">Coba lagi</string>
+    <string name="error_loading_places">Gagal memuat tempat sambung. Periksa koneksi internetmu.</string>
+    <string name="empty_places">Tidak ada tempat sambung ditemukan.</string>
+
+    <!-- Pengurus tab -->
+    <string name="contact_pengurus">Hubungi Pengurus</string>
+    <string name="copy_phone">Salin nomor</string>
+    <string name="phone_copied">Nomor telepon berhasil disalin</string>
+    <string name="error_loading_pengurus">Gagal memuat daftar pengurus. Periksa koneksi internetmu.</string>
+    <string name="empty_pengurus">Tidak ada data pengurus ditemukan.</string>
+
+    <!-- Wallpaper tab -->
+    <string name="set_wallpaper">Pasang sebagai wallpaper</string>
+    <string name="save_wallpaper">Simpan</string>
+    <string name="wallpaper_set_success">Wallpaper berhasil dipasang</string>
+    <string name="wallpaper_save_success">Wallpaper berhasil disimpan ke galeri</string>
+    <string name="wallpaper_set_failed">Gagal memasang wallpaper</string>
+    <string name="wallpaper_save_failed">Gagal menyimpan wallpaper</string>
+    <string name="error_loading_wallpapers">Gagal memuat wallpaper.</string>
+    <string name="empty_wallpapers">Tidak ada wallpaper tersedia.</string>
+
+    <!-- Settings tab -->
+    <string name="settings_preferences">Preferensi</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_en">English</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Ikuti sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+
+    <string name="settings_legal_info">Legal &amp; info</string>
+    <string name="settings_about">Tentang</string>
+    <string name="app_version_format">Versi %1$s (%2$d)</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="ad_privacy_settings">Pengaturan privasi iklan</string>
+
+    <!-- Ads & Dialogs -->
+    <string name="ad_badge">Iklan</string>
+    <string name="watch_ad">Tonton iklan</string>
+    <string name="cancel">Batal</string>
+    <string name="rewarded_route_msg">Tonton iklan singkat untuk membuka rute</string>
+    <string name="rewarded_contact_msg">Tonton iklan singkat untuk menghubungi pengurus</string>
+    <string name="rewarded_wallpaper_msg">Tonton iklan singkat untuk memakai wallpaper ini</string>
+</resources>

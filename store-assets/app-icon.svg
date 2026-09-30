@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#1B5E20"/>
+  <g transform="translate(256, 240)">
+    <!-- Location Pin Outline & Body -->
+    <path d="M 0,-150 C -75,-150 -135,-90 -135,-15 C -135,65 -20,170 0,195 C 20,170 135,65 135,-15 C 135,-90 75,-150 0,-150 Z" fill="#2E7D32" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round"/>
+    
+    <!-- Dome Base & Arch -->
+    <circle cx="0" cy="-25" r="70" fill="#1B5E20"/>
+    <!-- Dome Silhouette inside pin -->
+    <path d="M -48,22 L 48,22 L 48,0 C 48,-28 28,-48 0,-62 C -28,-48 -48,-28 -48,0 Z" fill="#FFFFFF"/>
+    <!-- Crescent finial on top of dome -->
+    <path d="M 0,-64 L 0,-76 M -6,-72 L 6,-72" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arch doorway -->
+    <path d="M -16,22 L 16,22 L 16,0 C 16,-10 9,-16 0,-16 C -9,-16 -16,-10 -16,0 Z" fill="#1B5E20"/>
+  </g>
+</svg>

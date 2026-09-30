@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tempat Sambung</string>
+    <string name="app_tagline">Find the nearest gathering place wherever you are</string>
+
+    <!-- Navigation tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_pengurus">Pengurus</string>
+    <string name="tab_wallpaper">Wallpaper</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Home screen -->
+    <string name="allow_location">Allow location</string>
+    <string name="enable_location">Enable location</string>
+    <string name="location_rationale">Tempat Sambung needs your location to show the nearest community gathering places around you.</string>
+    <string name="location_off_rationale">Device location is turned off. Please turn on location services to find nearest places.</string>
+    <string name="search_city_placeholder">Search city or regency…</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="get_directions">Get directions</string>
+    <string name="copy_address">Copy address</string>
+    <string name="address_copied">Address copied to clipboard</string>
+    <string name="retry">Retry</string>
+    <string name="error_loading_places">Failed to load places. Please check your internet connection.</string>
+    <string name="empty_places">No places found.</string>
+
+    <!-- Pengurus tab -->
+    <string name="contact_pengurus">Contact</string>
+    <string name="copy_phone">Copy phone</string>
+    <string name="phone_copied">Phone number copied to clipboard</string>
+    <string name="error_loading_pengurus">Failed to load coordinator list. Please check your internet connection.</string>
+    <string name="empty_pengurus">No coordinators found.</string>
+
+    <!-- Wallpaper tab -->
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="save_wallpaper">Save</string>
+    <string name="wallpaper_set_success">Wallpaper set successfully</string>
+    <string name="wallpaper_save_success">Wallpaper saved to gallery</string>
+    <string name="wallpaper_set_failed">Failed to set wallpaper</string>
+    <string name="wallpaper_save_failed">Failed to save wallpaper</string>
+    <string name="error_loading_wallpapers">Failed to load wallpapers.</string>
+    <string name="empty_wallpapers">No wallpapers available.</string>
+
+    <!-- Settings tab -->
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_language">Language</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_en">English</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="settings_legal_info">Legal &amp; info</string>
+    <string name="settings_about">About</string>
+    <string name="app_version_format">Version %1$s (%2$d)</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="ad_privacy_settings">Ad privacy settings</string>
+
+    <!-- Ads & Dialogs -->
+    <string name="ad_badge">Ad</string>
+    <string name="watch_ad">Watch ad</string>
+    <string name="cancel">Cancel</string>
+    <string name="rewarded_route_msg">Watch a short ad to open the route</string>
+    <string name="rewarded_contact_msg">Watch a short ad to contact the coordinator</string>
+    <string name="rewarded_wallpaper_msg">Watch a short ad to use this wallpaper</string>
+</resources>

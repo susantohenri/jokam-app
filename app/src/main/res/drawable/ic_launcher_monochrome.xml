@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="54" android:translateY="50">
+        <!-- Pin Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:strokeLineJoin="round"
+            android:pathData="M0,-30 C-15,-30 -27,-18 -27,-3 C-27,13 -4,34 0,39 C4,34 27,13 27,-3 C27,-18 15,-30 0,-30 Z"/>
+        <!-- Inner cutout -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M0,-5 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"/>
+        <!-- Dome Silhouette -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-10,4 L10,4 L10,0 C10,-6 6,-10 0,-13 C-6,-10 -10,-6 -10,0 Z"/>
+    </group>
+</vector>

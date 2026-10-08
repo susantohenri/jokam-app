@@ -13,12 +13,12 @@ android {
         applicationId = "com.jokam.tempatsambung"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
+        manifestPlaceholders["admobAppId"] = "ca-app-pub-1012224604632017~7679584933"
         resourceConfigurations += listOf("en", "id", "in")
     }
 

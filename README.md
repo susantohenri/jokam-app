@@ -206,7 +206,6 @@ python scraper/build_data.py
   - `store-assets/app-icon-512.png` (512×512 px, 32-bit PNG, full-bleed).
   - `store-assets/feature-graphic-1024x500.png` (1024×500 px banner).
   - Vektor Adaptive Icons untuk berbagai densitas layar (`mipmap-*`).
-- **Desain Netral**: Menggunakan siluet kubah dalam pin lokasi berwarna hijau tua dan putih tanpa mencantumkan logo hak cipta pihak ketiga mana pun.
 
 ---
 

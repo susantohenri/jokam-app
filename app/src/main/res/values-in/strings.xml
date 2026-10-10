@@ -27,6 +27,9 @@
     <string name="contact_pengurus">Hubungi Pengurus</string>
     <string name="copy_phone">Salin nomor</string>
     <string name="phone_copied">Nomor telepon berhasil disalin</string>
+    <string name="search_pengurus_placeholder">Cari kota, provinsi, atau nomor…</string>
+    <string name="empty_search_pengurus">Tidak ada pengurus ditemukan untuk \"%1$s\"</string>
+    <string name="clear_search">Hapus pencarian</string>
     <string name="error_loading_pengurus">Gagal memuat daftar pengurus. Periksa koneksi internetmu.</string>
     <string name="empty_pengurus">Tidak ada data pengurus ditemukan.</string>
 

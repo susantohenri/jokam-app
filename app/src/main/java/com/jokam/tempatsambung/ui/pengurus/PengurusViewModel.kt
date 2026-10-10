@@ -17,7 +17,8 @@ import kotlinx.coroutines.launch
 data class PengurusUiState(
     val isLoading: Boolean = false,
     val errorMessage: String? = null,
-    val pengurusList: List<Pengurus> = emptyList()
+    val pengurusList: List<Pengurus> = emptyList(),
+    val searchQuery: String = ""
 )
 
 class PengurusViewModel(
@@ -29,14 +30,24 @@ class PengurusViewModel(
     private val _rawPengurus = MutableStateFlow<List<Pengurus>>(emptyList())
     private val _places = MutableStateFlow<List<Place>>(emptyList())
     private val _locationStatus = MutableStateFlow<LocationStatus>(LocationStatus.Checking)
+    private val _searchQuery = MutableStateFlow("")
+
+    private data class DataState(
+        val isLoading: Boolean,
+        val errorMessage: String?,
+        val pengurus: List<Pengurus>,
+        val places: List<Place>
+    )
+
+    private val _dataState = combine(_isLoading, _errorMessage, _rawPengurus, _places) { loading, error, pengurus, places ->
+        DataState(loading, error, pengurus, places)
+    }
 
     val uiState: StateFlow<PengurusUiState> = combine(
-        _isLoading,
-        _errorMessage,
-        _rawPengurus,
-        _places,
-        _locationStatus
-    ) { loading, error, pengurus, places, locStatus ->
+        _dataState,
+        _locationStatus,
+        _searchQuery
+    ) { (loading, error, pengurus, places), locStatus, query ->
 
         // Calculate centroids per city (ignoring empty city names)
         val cityCentroids = places.filter { it.city.isNotBlank() }.groupBy { it.city.lowercase() }.mapValues { entry ->
@@ -81,10 +92,22 @@ class PengurusViewModel(
             }
         }
 
+        val filteredList = if (query.isBlank()) {
+            sortedList
+        } else {
+            val q = query.trim().lowercase()
+            sortedList.filter { p ->
+                p.city.lowercase().contains(q) ||
+                p.province.lowercase().contains(q) ||
+                p.phone.contains(q)
+            }
+        }
+
         PengurusUiState(
             isLoading = loading,
             errorMessage = error,
-            pengurusList = sortedList
+            pengurusList = filteredList,
+            searchQuery = query
         )
     }.stateIn(
         scope = viewModelScope,
@@ -94,6 +117,10 @@ class PengurusViewModel(
 
     fun updateLocationStatus(status: LocationStatus) {
         _locationStatus.value = status
+    }
+
+    fun onSearchQueryChanged(query: String) {
+        _searchQuery.value = query
     }
 
     fun loadData(forceRefresh: Boolean = false) {

@@ -34,6 +34,7 @@ import com.jokam.tempatsambung.data.model.Pengurus
 import com.jokam.tempatsambung.data.remote.RemoteConfigManager
 import com.jokam.tempatsambung.ui.components.NativeAdCard
 import com.jokam.tempatsambung.ui.components.RewardedAdDialog
+import com.jokam.tempatsambung.ui.utils.ShareUtils
 
 import com.jokam.tempatsambung.data.remote.RemoteConstants
 
@@ -60,34 +61,65 @@ fun PengurusScreen(
     val adsConfig by RemoteConfigManager.adsConfig.collectAsState()
     val context = LocalContext.current
 
-    var pendingPengurusForContact by remember { mutableStateOf<Pengurus?>(null) }
-    var showAdDialog by remember { mutableStateOf(false) }
+    var pendingAction by remember { mutableStateOf<(() -> Unit)?>(null) }
+    var adDialogMessage by remember { mutableStateOf<String?>(null) }
 
-    if (showAdDialog && pendingPengurusForContact != null) {
+    if (adDialogMessage != null && pendingAction != null) {
         RewardedAdDialog(
-            message = stringResource(R.string.rewarded_contact_msg),
+            message = adDialogMessage!!,
             onWatchAd = {
-                val target = pendingPengurusForContact
-                pendingPengurusForContact = null
-                if (target != null) {
-                    onShowRewardedAd {
-                        launchWhatsApp(context, target.phone)
-                    }
+                val action = pendingAction
+                pendingAction = null
+                adDialogMessage = null
+                if (action != null) {
+                    onShowRewardedAd { action() }
                 }
             },
             onDismiss = {
-                showAdDialog = false
-                pendingPengurusForContact = null
+                adDialogMessage = null
+                pendingAction = null
             }
         )
     }
 
-    val onContactClick: (Pengurus) -> Unit = { p ->
-        if (adsConfig.isAdsEnabled && adsConfig.isRewardedContactEnabled) {
-            pendingPengurusForContact = p
-            showAdDialog = true
+    val runWithRewardedGate: (Boolean, String, () -> Unit) -> Unit = { isGateEnabled, dialogMsg, action ->
+        if (adsConfig.isAdsEnabled && isGateEnabled) {
+            pendingAction = action
+            adDialogMessage = dialogMsg
         } else {
+            action()
+        }
+    }
+
+    val onContactClick: (Pengurus) -> Unit = { p ->
+        runWithRewardedGate(
+            adsConfig.isRewardedContactEnabled,
+            context.getString(R.string.rewarded_contact_msg)
+        ) {
             launchWhatsApp(context, p.phone)
+        }
+    }
+
+    val onCopyClick: (Pengurus) -> Unit = { p ->
+        runWithRewardedGate(
+            adsConfig.isRewardedCopyEnabled,
+            context.getString(R.string.rewarded_copy_msg)
+        ) {
+            ShareUtils.copyToClipboard(
+                context = context,
+                label = "Phone",
+                text = p.phone,
+                toastMessage = context.getString(R.string.phone_copied)
+            )
+        }
+    }
+
+    val onShareClick: (Pengurus) -> Unit = { p ->
+        runWithRewardedGate(
+            adsConfig.isRewardedShareEnabled,
+            context.getString(R.string.rewarded_share_msg)
+        ) {
+            ShareUtils.sharePengurus(context, p)
         }
     }
 
@@ -140,7 +172,9 @@ fun PengurusScreen(
                 ) { index, item ->
                     PengurusItemCard(
                         pengurus = item,
-                        onContactClick = { onContactClick(item) }
+                        onCopyClick = { onCopyClick(item) },
+                        onShareClick = { onShareClick(item) },
+                        onMessageClick = { onContactClick(item) }
                     )
 
                     // Native ad interleaving: slot after 3rd item (index == 2), then every 8th item, max 3

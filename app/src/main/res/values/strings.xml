@@ -60,6 +60,13 @@
     <string name="ad_badge">Ad</string>
     <string name="watch_ad">Watch ad</string>
     <string name="cancel">Cancel</string>
+    <string name="share_place">Share place</string>
+    <string name="share_place_title">Share place details</string>
+    <string name="share_pengurus">Share coordinator</string>
+    <string name="share_pengurus_title">Share coordinator details</string>
+    <string name="share_pengurus_heading">Tempat Sambung Coordinator Contact</string>
+    <string name="rewarded_copy_msg">Watch a short ad to copy this information</string>
+    <string name="rewarded_share_msg">Watch a short ad to share this information</string>
     <string name="rewarded_route_msg">Watch a short ad to open the route</string>
     <string name="rewarded_contact_msg">Watch a short ad to contact the coordinator</string>
     <string name="rewarded_wallpaper_msg">Watch a short ad to use this wallpaper</string>

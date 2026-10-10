@@ -39,7 +39,9 @@ object RemoteConfigManager {
             isNativeEnabled = true,
             isRewardedRouteEnabled = true,
             isRewardedContactEnabled = true,
-            isRewardedWallpaperEnabled = true
+            isRewardedWallpaperEnabled = true,
+            isRewardedCopyEnabled = true,
+            isRewardedShareEnabled = true
         )
     } else {
         AdsConfig(

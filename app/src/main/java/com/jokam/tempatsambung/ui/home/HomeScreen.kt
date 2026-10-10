@@ -49,6 +49,7 @@ import com.jokam.tempatsambung.data.model.Place
 import com.jokam.tempatsambung.data.remote.RemoteConfigManager
 import com.jokam.tempatsambung.ui.components.NativeAdCard
 import com.jokam.tempatsambung.ui.components.RewardedAdDialog
+import com.jokam.tempatsambung.ui.utils.ShareUtils
 
 import com.jokam.tempatsambung.data.remote.RemoteConstants
 
@@ -83,34 +84,65 @@ fun HomeScreen(
     val adsConfig by RemoteConfigManager.adsConfig.collectAsState()
     val context = LocalContext.current
 
-    var pendingPlaceForDirections by remember { mutableStateOf<Place?>(null) }
-    var showAdDialog by remember { mutableStateOf(false) }
+    var pendingAction by remember { mutableStateOf<(() -> Unit)?>(null) }
+    var adDialogMessage by remember { mutableStateOf<String?>(null) }
 
-    if (showAdDialog && pendingPlaceForDirections != null) {
+    if (adDialogMessage != null && pendingAction != null) {
         RewardedAdDialog(
-            message = stringResource(R.string.rewarded_route_msg),
+            message = adDialogMessage!!,
             onWatchAd = {
-                val target = pendingPlaceForDirections
-                pendingPlaceForDirections = null
-                if (target != null) {
-                    onShowRewardedAd {
-                        launchDirectionsIntent(context, target.lat, target.lng)
-                    }
+                val action = pendingAction
+                pendingAction = null
+                adDialogMessage = null
+                if (action != null) {
+                    onShowRewardedAd { action() }
                 }
             },
             onDismiss = {
-                showAdDialog = false
-                pendingPlaceForDirections = null
+                adDialogMessage = null
+                pendingAction = null
             }
         )
     }
 
-    val onDirectionsClick: (Place) -> Unit = { place ->
-        if (adsConfig.isAdsEnabled && adsConfig.isRewardedRouteEnabled) {
-            pendingPlaceForDirections = place
-            showAdDialog = true
+    val runWithRewardedGate: (Boolean, String, () -> Unit) -> Unit = { isGateEnabled, dialogMsg, action ->
+        if (adsConfig.isAdsEnabled && isGateEnabled) {
+            pendingAction = action
+            adDialogMessage = dialogMsg
         } else {
+            action()
+        }
+    }
+
+    val onDirectionsClick: (Place) -> Unit = { place ->
+        runWithRewardedGate(
+            adsConfig.isRewardedRouteEnabled,
+            context.getString(R.string.rewarded_route_msg)
+        ) {
             launchDirectionsIntent(context, place.lat, place.lng)
+        }
+    }
+
+    val onCopyClick: (Place) -> Unit = { place ->
+        runWithRewardedGate(
+            adsConfig.isRewardedCopyEnabled,
+            context.getString(R.string.rewarded_copy_msg)
+        ) {
+            ShareUtils.copyToClipboard(
+                context = context,
+                label = "Address",
+                text = place.address,
+                toastMessage = context.getString(R.string.address_copied)
+            )
+        }
+    }
+
+    val onShareClick: (Place) -> Unit = { place ->
+        runWithRewardedGate(
+            adsConfig.isRewardedShareEnabled,
+            context.getString(R.string.rewarded_share_msg)
+        ) {
+            ShareUtils.sharePlace(context, place)
         }
     }
 
@@ -303,7 +335,9 @@ fun HomeScreen(
                             distanceLabel = item.displayLabel,
                             isFavorite = true,
                             onToggleFavorite = { viewModel.toggleFavorite(item.place.id) },
-                            onOpenDirections = { onDirectionsClick(item.place) }
+                            onCopyClick = { onCopyClick(item.place) },
+                            onShareClick = { onShareClick(item.place) },
+                            onLocationClick = { onDirectionsClick(item.place) }
                         )
                     }
 
@@ -343,7 +377,9 @@ fun HomeScreen(
                         distanceLabel = item.displayLabel,
                         isFavorite = favorites.contains(item.place.id),
                         onToggleFavorite = { viewModel.toggleFavorite(item.place.id) },
-                        onOpenDirections = { onDirectionsClick(item.place) }
+                        onCopyClick = { onCopyClick(item.place) },
+                        onShareClick = { onShareClick(item.place) },
+                        onLocationClick = { onDirectionsClick(item.place) }
                     )
 
                     // Interleave native ad deterministically

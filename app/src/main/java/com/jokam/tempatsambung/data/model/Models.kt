@@ -40,5 +40,7 @@ data class AdsConfig(
     val isNativeEnabled: Boolean = true,
     val isRewardedRouteEnabled: Boolean = true,
     val isRewardedContactEnabled: Boolean = true,
-    val isRewardedWallpaperEnabled: Boolean = true
+    val isRewardedWallpaperEnabled: Boolean = true,
+    val isRewardedCopyEnabled: Boolean = true,
+    val isRewardedShareEnabled: Boolean = true
 )

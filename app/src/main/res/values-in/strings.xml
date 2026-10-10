@@ -60,6 +60,13 @@
     <string name="ad_badge">Iklan</string>
     <string name="watch_ad">Tonton iklan</string>
     <string name="cancel">Batal</string>
+    <string name="share_place">Bagikan tempat</string>
+    <string name="share_place_title">Bagikan info tempat sambung</string>
+    <string name="share_pengurus">Bagikan kontak pengurus</string>
+    <string name="share_pengurus_title">Bagikan info pengurus</string>
+    <string name="share_pengurus_heading">Kontak Pengurus Tempat Sambung</string>
+    <string name="rewarded_copy_msg">Tonton iklan singkat untuk menyalin informasi ini</string>
+    <string name="rewarded_share_msg">Tonton iklan singkat untuk membagikan informasi ini</string>
     <string name="rewarded_route_msg">Tonton iklan singkat untuk membuka rute</string>
     <string name="rewarded_contact_msg">Tonton iklan singkat untuk menghubungi pengurus</string>
     <string name="rewarded_wallpaper_msg">Tonton iklan singkat untuk memakai wallpaper ini</string>
